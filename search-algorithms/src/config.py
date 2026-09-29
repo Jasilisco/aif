@@ -17,6 +17,17 @@ class Config:
         8: 'Irrelevant'
     }
     
+    desplazamientos = {
+        0: (-1, 0),
+        1: (-1, 1),
+        2: (0, 1),
+        3: (1, 1),
+        4: (1, 0),
+        5: (1, -1),
+        6: (0, -1),
+        7: (-1, -1)
+    }
+    
     def __init__(self, filePath):
         path = f"../input/{filePath}.txt"
         self.filePath = path

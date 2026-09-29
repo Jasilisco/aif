@@ -1,5 +1,6 @@
 from config import Config
 import sys
+import DSF as dsf
 
 def main():
     if len(sys.argv) < 2:
@@ -12,6 +13,8 @@ def main():
     board = mapa.board
     
     print(inicio, objetivo, board)
+    
+    dsf.DFS(inicio, objetivo, board)
     
    
 
