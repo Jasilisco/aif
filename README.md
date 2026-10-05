@@ -8,9 +8,17 @@ First Practice about applying search algorithms to solve shortest path/optimal p
 search-algorithms/
 ├── input/                    # Folder to place input text files
 ├── src/                      # Source Code 
-│   ├── config.py                   # Config Class - Organizes and declares the input
-│   ├── main.py                     # Main file to start the execution
-│   └── utils.py                    # Contains util functions
+│   ├── environment/                # Contains the classes that structures the problem
+│   │   ├── config.py                   # Config Class - Organizes and declares the input
+│   │   ├── constants.py                # Constants File - Constant dictionaries
+│   │   ├── problem.py                  # Problem Class - Includes shared functions to solve the problems
+│   │   ├── utils.py                    # Utils File - Includes aditional functions
+│   │   └── state.py                    # State Class - Declares a inmutable state of a node
+│   ├── search-problem/             # Contains the classes that solve the problem
+│   │   ├── algorithms/                 # Contains the classes that implement the algorithms
+│   │   │   └── astar.py                    # A* Class - Base class for the algorithms to implement
+│   │   └── node.py                 # Node Class - Defines a the structure of the nodes
+├── main.py                     # Main file to start the execution
 └── requirements.txt          # Contains the libraries required for the execution
 ```
 
@@ -59,8 +67,10 @@ The character separators must be spaces and the characters must be numbers. Exam
 # 5.- Execution
 
 ```sh
-cd .\src\
-python3 .\main.py input_file
+python3 .\main.py input_file -a algorithm_name -h heuristic_used
 ```
-
+**Algorithm name**: Specifies the name of the algorithm used. Must match some of these ['bfs', 'dfs', 'astar']. 
+**Heuristic Used**: Flag only needed with A* algorithm. Must match some of these ['chessboard', 'manhattan'].
+Note: As stated on the report, the manhattan heuristic is **NOT** suitable for the A* problem. Is just implemented as an informative heuristic
+Note: The tags are case sensitive
 Note: The name of the input file must be without extension
