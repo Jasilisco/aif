@@ -32,14 +32,23 @@ class Config:
         print('')
         print('\n'.join(' '.join(str(int(item)) for item in line) for line in self.board))
         print('')
-        print(f'#3 - Starting position {self.start}, starting orientation {self.startOrientation}')
-        print(f'#4 - Goal position {self.goal}, goal orientation {self.goalOrientation}')
+        print(f'#3 - Starting position {self.start}, starting orientation {self.orientations[self.startOrientation]}')
+        print(f'#4 - Goal position {self.goal}, goal orientation {self.orientations[self.goalOrientation]}')
+        print('------------------------------')
+        print("\n")
+        
+    def start_state(self):
+        return (self.start[0], self.start[1], self.startOrientation)
+    
+    def goal_state(self):
+        return (self.goal[0], self.goal[1], self.goalOrientation)
     
     def _load(self, filePath):
         with open(filePath, 'r') as file:
             content = file.readlines()
             self.matrixSize = tuple(map(int, content[0].split()))
-            self.board = self._board(content[1:self.matrixSize[0] + 1])
+            rows = self.matrixSize[0]
+            self.board = self._board(content[1:rows + 1])
             self.start, self.goal, self.startOrientation, self.goalOrientation = self._path(content[self.matrixSize[0] + 1:])
             
     def _board(self, board):
@@ -51,10 +60,6 @@ class Config:
     def _path(self, path):
         start = tuple(map(int, path[0].split()[:2]))
         goal = tuple(map(int, path[1].split()[:2]))
-        startOrientation = self.orientations[int(path[0].split()[2])]
-        goalOrientation = self.orientations[int(path[1].split()[2])]
+        startOrientation = int(path[0].split()[2])
+        goalOrientation = int(path[1].split()[2])
         return start, goal, startOrientation, goalOrientation
-    
-if len(sys.argv) < 2:
-    raise Exception("The name of the input file must be providen")
-cfg = Config(sys.argv[1])   
