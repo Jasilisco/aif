@@ -12,10 +12,12 @@ search-algorithms/
 │   │   ├── config.py                   # Config Class - Organizes and declares the input
 │   │   ├── constants.py                # Constants File - Constant dictionaries
 │   │   ├── problem.py                  # Problem Class - Includes shared functions to solve the problems
+│   │   ├── utils.py                    # Utils File - Includes aditional functions
 │   │   └── state.py                    # State Class - Declares a inmutable state of a node
 │   ├── search-problem/             # Contains the classes that solve the problem
 │   │   ├── algorithms/                 # Contains the classes that implement the algorithms
-│   │   └── search.py                   # Search Class - Base class for the algorithms to implement
+│   │   │   └── astar.py                    # A* Class - Base class for the algorithms to implement
+│   │   └── node.py                 # Node Class - Defines a the structure of the nodes
 ├── main.py                     # Main file to start the execution
 └── requirements.txt          # Contains the libraries required for the execution
 ```
