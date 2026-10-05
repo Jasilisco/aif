@@ -1,4 +1,5 @@
-from state import State
+from src.environment.state import State
+
 
 class Node:
     def __init__(self, state: State, g: int = 0, depth: int = 0, operator: str | None = None, parent: "Node | None" = None, h: int = 0):
