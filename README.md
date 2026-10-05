@@ -8,9 +8,15 @@ First Practice about applying search algorithms to solve shortest path/optimal p
 search-algorithms/
 ├── input/                    # Folder to place input text files
 ├── src/                      # Source Code 
-│   ├── config.py                   # Config Class - Organizes and declares the input
-│   ├── main.py                     # Main file to start the execution
-│   └── utils.py                    # Contains util functions
+│   ├── environment/                # Contains the classes that structures the problem
+│   │   ├── config.py                   # Config Class - Organizes and declares the input
+│   │   ├── constants.py                # Constants File - Constant dictionaries
+│   │   ├── problem.py                  # Problem Class - Includes shared functions to solve the problems
+│   │   └── state.py                    # State Class - Declares a inmutable state of a node
+│   ├── search-problem/             # Contains the classes that solve the problem
+│   │   ├── algorithms/                 # Contains the classes that implement the algorithms
+│   │   └── search.py                   # Search Class - Base class for the algorithms to implement
+├── main.py                     # Main file to start the execution
 └── requirements.txt          # Contains the libraries required for the execution
 ```
 
@@ -59,7 +65,6 @@ The character separators must be spaces and the characters must be numbers. Exam
 # 5.- Execution
 
 ```sh
-cd .\src\
 python3 .\main.py input_file
 ```
 
