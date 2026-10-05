@@ -67,7 +67,10 @@ The character separators must be spaces and the characters must be numbers. Exam
 # 5.- Execution
 
 ```sh
-python3 .\main.py input_file
+python3 .\main.py input_file -a algorithm_name -h heuristic_used
 ```
-
+**Algorithm name**: Specifies the name of the algorithm used. Must match some of these ['bfs', 'dfs', 'astar']. 
+**Heuristic Used**: Flag only needed with A* algorithm. Must match some of these ['chessboard', 'manhattan'].
+Note: As stated on the report, the manhattan heuristic is **NOT** suitable for the A* problem. Is just implemented as an informative heuristic
+Note: The tags are case sensitive
 Note: The name of the input file must be without extension
