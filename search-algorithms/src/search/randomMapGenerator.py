@@ -36,7 +36,7 @@ class PipelineGenerator:
         with open(file_path, 'w') as file:
             sizeAux = f"{size} {size}"
             start = f"0 0 0"
-            goal = f"{size-1} {size-1} {np.random.randint(0,8)}"
+            goal = f"{size-1} {size-1} {self.seed.integers(0, 9)}"
             matrixStr = [" ".join(map(str, row)) for row in matrix]
             for line in [sizeAux, *matrixStr, start, goal]:
                 file.write(f"{line}\n")
@@ -89,7 +89,3 @@ class PipelineGenerator:
                         for trace in (bfs_trace, dfs_trace, astar_trace):
                             traces_file.write(trace + "\n")
                     metrics_file.write(self.extract_metrics(f"{size}x{size}", metrics, heuristic))
-                
-                
-                
-                
