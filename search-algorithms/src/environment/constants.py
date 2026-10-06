@@ -23,3 +23,28 @@ MOVES = {
     6: (0, -1), 
     7: (-1, -1),
 }
+
+# Algorithm names for the flag passing
+ALGORITHM_NAMES = {
+    "bfs": "Breadth First",
+    "dfs": "Depth First",
+    "astar": "A*",
+}
+
+# Heuristic names for the flag passing
+HEURISTIC_NAMES = {
+    "chessboard": "Weighted Chessboard Distance",
+    "manhattan": "Weighted Manhattan Distance",
+    "0": "0 Heuristic"
+}
+
+# Sizes for the random generator
+GENERATOR_SIZES = {
+    3: '3x3',
+    5: '5x5',
+    7: '7x7',
+    9: '9x9',
+}
+
+#Seed for the random generator
+SEED = 1
