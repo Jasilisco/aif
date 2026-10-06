@@ -3,6 +3,9 @@ import sys
 import warnings
 from src.environment.problem import Problem
 from src.search.algorithms.astar import Astar
+from src.search.algorithms.sbf import bfs
+from src.search.algorithms.sdf import dfs
+from src.environment.utils import print_trace
 
 def main():
     pass
@@ -17,9 +20,13 @@ if __name__ == "__main__":
         match sys.argv[3]:
             case 'bfs':
                 print('Algorithm: Breadth First')
+                solution, last, n_exp, n_front = bfs(Problem(cfg))
+                print_trace(solution, last, n_exp, n_front)
                 pass
             case 'dfs':
                 print('Algorithm: Depth First')
+                solution, last, n_exp, n_front = dfs(Problem(cfg))
+                print_trace(solution, last, n_exp, n_front)
                 pass
             case 'astar':
                 if(len(sys.argv) >= 5 and sys.argv[4] == '-h'):

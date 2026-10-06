@@ -23,7 +23,7 @@ class Config:
         print('\n'.join(' '.join(map(str, line)) for line in self.board))
         print('')
         print(f'#3 - Starting position {self.start}, starting orientation {ORIENTATIONS[self.startOrientation]}')
-        print(f'#4 - Goal position {self.goal}, goal orientation {ORIENTATIONS[self.goalOrientation]}')
+        print(f'#4 - Goal position {self.goal}, goal orientation {ORIENTATIONS[self.goalOrientation]} \n')
     
     # Extracts and stores the board, orientation and positions
     def _load(self, filePath):
