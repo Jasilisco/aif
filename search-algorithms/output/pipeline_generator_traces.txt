@@ -1,0 +1,2658 @@
+--- TRACE PRINTING FOR random/randomMap3x3_0 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 12, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 16, Move, (2,2,3))
+Operator 6: Rotate CCW
+Node 6: (6, 17, Rotate CCW, (2,2,2))
+Operator 7: Rotate CCW
+Node 7 (final node): (7, 18, Rotate CCW, (2,2,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 7
+Final cost: 18
+Total number of items in explored list: 30
+Total number of items in frontier: 12
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_0 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 9, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 15, Move, (0,2,2))
+Operator 5: Rotate CW
+Node 5: (5, 16, Rotate CW, (0,2,3))
+Operator 6: Rotate CW
+Node 6: (6, 17, Rotate CW, (0,2,4))
+Operator 7: Move
+Node 7: (7, 19, Move, (1,2,4))
+Operator 8: Move
+Node 8: (8, 23, Move, (2,2,4))
+Operator 9: Rotate CW
+Node 9: (9, 24, Rotate CW, (2,2,5))
+Operator 10: Rotate CW
+Node 10: (10, 25, Rotate CW, (2,2,6))
+Operator 11: Move
+Node 11: (11, 27, Move, (2,1,6))
+Operator 12: Move
+Node 12: (12, 30, Move, (2,0,6))
+Operator 13: Rotate CW
+Node 13: (13, 31, Rotate CW, (2,0,7))
+Operator 14: Rotate CW
+Node 14: (14, 32, Rotate CW, (2,0,0))
+Operator 15: Move
+Node 15: (15, 33, Move, (1,0,0))
+Operator 16: Rotate CW
+Node 16: (16, 34, Rotate CW, (1,0,1))
+Operator 17: Rotate CW
+Node 17: (17, 35, Rotate CW, (1,0,2))
+Operator 18: Move
+Node 18: (18, 44, Move, (1,1,2))
+Operator 19: Move
+Node 19: (19, 46, Move, (1,2,2))
+Operator 20: Rotate CCW
+Node 20: (20, 47, Rotate CCW, (1,2,1))
+Operator 21: Rotate CCW
+Node 21: (21, 48, Rotate CCW, (1,2,0))
+Operator 22: Move
+Node 22: (22, 54, Move, (0,2,0))
+Operator 23: Rotate CCW
+Node 23: (23, 55, Rotate CCW, (0,2,7))
+Operator 24: Rotate CCW
+Node 24: (24, 56, Rotate CCW, (0,2,6))
+Operator 25: Move
+Node 25: (25, 63, Move, (0,1,6))
+Operator 26: Move
+Node 26: (26, 64, Move, (0,0,6))
+Operator 27: Rotate CCW
+Node 27: (27, 65, Rotate CCW, (0,0,5))
+Operator 28: Rotate CCW
+Node 28: (28, 66, Rotate CCW, (0,0,4))
+Operator 29: Move
+Node 29: (29, 67, Move, (1,0,4))
+Operator 30: Move
+Node 30: (30, 70, Move, (2,0,4))
+Operator 31: Rotate CCW
+Node 31: (31, 71, Rotate CCW, (2,0,3))
+Operator 32: Rotate CCW
+Node 32: (32, 72, Rotate CCW, (2,0,2))
+Operator 33: Move
+Node 33: (33, 74, Move, (2,1,2))
+Operator 34: Move
+Node 34: (34, 78, Move, (2,2,2))
+Operator 35: Rotate CCW
+Node 35 (final node): (35, 79, Rotate CCW, (2,2,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 35
+Final cost: 79
+Total number of items in explored list: 35
+Total number of items in frontier: 24
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_0 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 2, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 2, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 2, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 2, (0,0,3))
+Operator 4: Rotate CW
+Node 4: (4, 4, Rotate CW, 2, (0,0,4))
+Operator 5: Move
+Node 5: (5, 5, Move, 2, (1,0,4))
+Operator 6: Rotate CCW
+Node 6: (6, 6, Rotate CCW, 2, (1,0,3))
+Operator 7: Move
+Node 7: (7, 8, Move, 1, (2,1,3))
+Operator 8: Rotate CCW
+Node 8: (8, 9, Rotate CCW, 1, (2,1,2))
+Operator 9: Move
+Node 9: (9, 13, Move, 0, (2,2,2))
+Operator 10: Rotate CCW
+Node 10 (final node): (10, 14, Rotate CCW, 0, (2,2,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 10
+Final cost: 14
+Total number of items in explored list: 41
+Total number of items in frontier: 12
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_1 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 8, Move, (1,1,3))
+Operator 5: Move
+Node 5 (final node): (5, 16, Move, (2,2,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 5
+Final cost: 16
+Total number of items in explored list: 12
+Total number of items in frontier: 6
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_1 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 10, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 15, Move, (0,2,2))
+Operator 5: Rotate CW
+Node 5: (5, 16, Rotate CW, (0,2,3))
+Operator 6: Rotate CW
+Node 6: (6, 17, Rotate CW, (0,2,4))
+Operator 7: Move
+Node 7: (7, 20, Move, (1,2,4))
+Operator 8: Move
+Node 8 (final node): (8, 28, Move, (2,2,4))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 8
+Final cost: 28
+Total number of items in explored list: 8
+Total number of items in frontier: 8
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_1 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 6, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 6, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 6, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 6, (0,0,3))
+Operator 4: Move
+Node 4: (4, 8, Move, 3, (1,1,3))
+Operator 5: Move
+Node 5 (final node): (5, 16, Move, 0, (2,2,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 5
+Final cost: 16
+Total number of items in explored list: 17
+Total number of items in frontier: 9
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_2 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 6, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 10, Move, (2,2,3))
+Operator 6: Rotate CW
+Node 6: (6, 11, Rotate CW, (2,2,4))
+Operator 7: Rotate CW
+Node 7: (7, 12, Rotate CW, (2,2,5))
+Operator 8: Rotate CW
+Node 8 (final node): (8, 13, Rotate CW, (2,2,6))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 8
+Final cost: 13
+Total number of items in explored list: 42
+Total number of items in frontier: 12
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_2 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 7, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 10, Move, (0,2,2))
+Operator 5: Rotate CW
+Node 5: (5, 11, Rotate CW, (0,2,3))
+Operator 6: Rotate CW
+Node 6: (6, 12, Rotate CW, (0,2,4))
+Operator 7: Move
+Node 7: (7, 20, Move, (1,2,4))
+Operator 8: Move
+Node 8: (8, 24, Move, (2,2,4))
+Operator 9: Rotate CW
+Node 9: (9, 25, Rotate CW, (2,2,5))
+Operator 10: Rotate CW
+Node 10 (final node): (10, 26, Rotate CW, (2,2,6))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 10
+Final cost: 26
+Total number of items in explored list: 10
+Total number of items in frontier: 9
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_2 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 2, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 2, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 2, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 2, (0,0,3))
+Operator 4: Move
+Node 4: (4, 6, Move, 1, (1,1,3))
+Operator 5: Move
+Node 5: (5, 10, Move, 0, (2,2,3))
+Operator 6: Rotate CW
+Node 6: (6, 11, Rotate CW, 0, (2,2,4))
+Operator 7: Rotate CW
+Node 7: (7, 12, Rotate CW, 0, (2,2,5))
+Operator 8: Rotate CW
+Node 8 (final node): (8, 13, Rotate CW, 0, (2,2,6))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 8
+Final cost: 13
+Total number of items in explored list: 41
+Total number of items in frontier: 12
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_3 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 10, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 12, Move, (2,2,3))
+Operator 6: Rotate CW
+Node 6 (final node): (6, 13, Rotate CW, (2,2,4))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 6
+Final cost: 13
+Total number of items in explored list: 19
+Total number of items in frontier: 9
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_3 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 8, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 12, Move, (0,2,2))
+Operator 5: Rotate CW
+Node 5: (5, 13, Rotate CW, (0,2,3))
+Operator 6: Rotate CW
+Node 6: (6, 14, Rotate CW, (0,2,4))
+Operator 7: Move
+Node 7: (7, 17, Move, (1,2,4))
+Operator 8: Move
+Node 8 (final node): (8, 19, Move, (2,2,4))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 8
+Final cost: 19
+Total number of items in explored list: 8
+Total number of items in frontier: 8
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_3 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 4, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 4, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 4, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 4, (0,0,3))
+Operator 4: Move
+Node 4: (4, 10, Move, 2, (1,1,3))
+Operator 5: Move
+Node 5: (5, 12, Move, 0, (2,2,3))
+Operator 6: Rotate CW
+Node 6 (final node): (6, 13, Rotate CW, 0, (2,2,4))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 6
+Final cost: 13
+Total number of items in explored list: 11
+Total number of items in frontier: 7
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_4 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 4, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 8, Move, (2,2,3))
+Operator 6: Rotate CCW
+Node 6: (6, 9, Rotate CCW, (2,2,2))
+Operator 7: Rotate CCW
+Node 7 (final node): (7, 10, Rotate CCW, (2,2,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 7
+Final cost: 10
+Total number of items in explored list: 30
+Total number of items in frontier: 12
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_4 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 5, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 8, Move, (0,2,2))
+Operator 5: Rotate CW
+Node 5: (5, 9, Rotate CW, (0,2,3))
+Operator 6: Rotate CW
+Node 6: (6, 10, Rotate CW, (0,2,4))
+Operator 7: Move
+Node 7: (7, 15, Move, (1,2,4))
+Operator 8: Move
+Node 8: (8, 19, Move, (2,2,4))
+Operator 9: Rotate CW
+Node 9: (9, 20, Rotate CW, (2,2,5))
+Operator 10: Rotate CW
+Node 10: (10, 21, Rotate CW, (2,2,6))
+Operator 11: Move
+Node 11: (11, 27, Move, (2,1,6))
+Operator 12: Move
+Node 12: (12, 28, Move, (2,0,6))
+Operator 13: Rotate CW
+Node 13: (13, 29, Rotate CW, (2,0,7))
+Operator 14: Rotate CW
+Node 14: (14, 30, Rotate CW, (2,0,0))
+Operator 15: Move
+Node 15: (15, 32, Move, (1,0,0))
+Operator 16: Rotate CW
+Node 16: (16, 33, Rotate CW, (1,0,1))
+Operator 17: Rotate CW
+Node 17: (17, 34, Rotate CW, (1,0,2))
+Operator 18: Move
+Node 18: (18, 35, Move, (1,1,2))
+Operator 19: Move
+Node 19: (19, 40, Move, (1,2,2))
+Operator 20: Rotate CCW
+Node 20: (20, 41, Rotate CCW, (1,2,1))
+Operator 21: Rotate CCW
+Node 21: (21, 42, Rotate CCW, (1,2,0))
+Operator 22: Move
+Node 22: (22, 45, Move, (0,2,0))
+Operator 23: Rotate CCW
+Node 23: (23, 46, Rotate CCW, (0,2,7))
+Operator 24: Rotate CCW
+Node 24: (24, 47, Rotate CCW, (0,2,6))
+Operator 25: Move
+Node 25: (25, 50, Move, (0,1,6))
+Operator 26: Move
+Node 26: (26, 58, Move, (0,0,6))
+Operator 27: Rotate CCW
+Node 27: (27, 59, Rotate CCW, (0,0,5))
+Operator 28: Rotate CCW
+Node 28: (28, 60, Rotate CCW, (0,0,4))
+Operator 29: Move
+Node 29: (29, 62, Move, (1,0,4))
+Operator 30: Move
+Node 30: (30, 63, Move, (2,0,4))
+Operator 31: Rotate CCW
+Node 31: (31, 64, Rotate CCW, (2,0,3))
+Operator 32: Rotate CCW
+Node 32: (32, 65, Rotate CCW, (2,0,2))
+Operator 33: Move
+Node 33: (33, 71, Move, (2,1,2))
+Operator 34: Move
+Node 34: (34, 75, Move, (2,2,2))
+Operator 35: Rotate CCW
+Node 35 (final node): (35, 76, Rotate CCW, (2,2,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 35
+Final cost: 76
+Total number of items in explored list: 35
+Total number of items in frontier: 24
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap3x3_4 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 2, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 2, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 2, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 2, (0,0,3))
+Operator 4: Move
+Node 4: (4, 4, Move, 1, (1,1,3))
+Operator 5: Move
+Node 5: (5, 8, Move, 0, (2,2,3))
+Operator 6: Rotate CCW
+Node 6: (6, 9, Rotate CCW, 0, (2,2,2))
+Operator 7: Rotate CCW
+Node 7 (final node): (7, 10, Rotate CCW, 0, (2,2,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 7
+Final cost: 10
+Total number of items in explored list: 30
+Total number of items in frontier: 13
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_0 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 6, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 12, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 14, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 19, Move, (4,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 20, Rotate CW, (4,4,4))
+Operator 9: Rotate CW
+Node 9: (9, 21, Rotate CW, (4,4,5))
+Operator 10: Rotate CW
+Node 10: (10, 22, Rotate CW, (4,4,6))
+Operator 11: Rotate CW
+Node 11 (final node): (11, 23, Rotate CW, (4,4,7))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 11
+Final cost: 23
+Total number of items in explored list: 163
+Total number of items in frontier: 21
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_0 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 3, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 5, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 10, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 11, Move, (0,4,2))
+Operator 7: Rotate CW
+Node 7: (7, 12, Rotate CW, (0,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 13, Rotate CW, (0,4,4))
+Operator 9: Move
+Node 9: (9, 19, Move, (1,4,4))
+Operator 10: Move
+Node 10: (10, 24, Move, (2,4,4))
+Operator 11: Move
+Node 11: (11, 31, Move, (3,4,4))
+Operator 12: Move
+Node 12: (12, 36, Move, (4,4,4))
+Operator 13: Rotate CW
+Node 13: (13, 37, Rotate CW, (4,4,5))
+Operator 14: Rotate CW
+Node 14: (14, 38, Rotate CW, (4,4,6))
+Operator 15: Rotate CW
+Node 15 (final node): (15, 39, Rotate CW, (4,4,7))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 15
+Final cost: 39
+Total number of items in explored list: 15
+Total number of items in frontier: 17
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_0 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 4, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 4, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 4, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 4, (0,0,3))
+Operator 4: Move
+Node 4: (4, 6, Move, 3, (1,1,3))
+Operator 5: Move
+Node 5: (5, 12, Move, 2, (2,2,3))
+Operator 6: Move
+Node 6: (6, 14, Move, 1, (3,3,3))
+Operator 7: Move
+Node 7: (7, 19, Move, 0, (4,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 20, Rotate CW, 0, (4,4,4))
+Operator 9: Rotate CW
+Node 9: (9, 21, Rotate CW, 0, (4,4,5))
+Operator 10: Rotate CW
+Node 10: (10, 22, Rotate CW, 0, (4,4,6))
+Operator 11: Rotate CW
+Node 11 (final node): (11, 23, Rotate CW, 0, (4,4,7))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 11
+Final cost: 23
+Total number of items in explored list: 148
+Total number of items in frontier: 22
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_1 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 7, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 16, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 23, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 31, Move, (4,4,3))
+Operator 8: Rotate CCW
+Node 8: (8, 32, Rotate CCW, (4,4,2))
+Operator 9: Rotate CCW
+Node 9 (final node): (9, 33, Rotate CCW, (4,4,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 9
+Final cost: 33
+Total number of items in explored list: 94
+Total number of items in frontier: 36
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_1 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 5, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 10, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 15, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 20, Move, (0,4,2))
+Operator 7: Rotate CW
+Node 7: (7, 21, Rotate CW, (0,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 22, Rotate CW, (0,4,4))
+Operator 9: Move
+Node 9: (9, 25, Move, (1,4,4))
+Operator 10: Move
+Node 10: (10, 32, Move, (2,4,4))
+Operator 11: Move
+Node 11: (11, 33, Move, (3,4,4))
+Operator 12: Move
+Node 12: (12, 41, Move, (4,4,4))
+Operator 13: Rotate CW
+Node 13: (13, 42, Rotate CW, (4,4,5))
+Operator 14: Rotate CW
+Node 14: (14, 43, Rotate CW, (4,4,6))
+Operator 15: Move
+Node 15: (15, 48, Move, (4,3,6))
+Operator 16: Move
+Node 16: (16, 55, Move, (4,2,6))
+Operator 17: Move
+Node 17: (17, 60, Move, (4,1,6))
+Operator 18: Move
+Node 18: (18, 64, Move, (4,0,6))
+Operator 19: Rotate CW
+Node 19: (19, 65, Rotate CW, (4,0,7))
+Operator 20: Rotate CW
+Node 20: (20, 66, Rotate CW, (4,0,0))
+Operator 21: Move
+Node 21: (21, 69, Move, (3,0,0))
+Operator 22: Move
+Node 22: (22, 75, Move, (2,0,0))
+Operator 23: Move
+Node 23: (23, 76, Move, (1,0,0))
+Operator 24: Rotate CW
+Node 24: (24, 77, Rotate CW, (1,0,1))
+Operator 25: Rotate CW
+Node 25: (25, 78, Rotate CW, (1,0,2))
+Operator 26: Move
+Node 26: (26, 82, Move, (1,1,2))
+Operator 27: Move
+Node 27: (27, 88, Move, (1,2,2))
+Operator 28: Move
+Node 28: (28, 97, Move, (1,3,2))
+Operator 29: Move
+Node 29: (29, 100, Move, (1,4,2))
+Operator 30: Rotate CCW
+Node 30: (30, 101, Rotate CCW, (1,4,1))
+Operator 31: Rotate CCW
+Node 31: (31, 102, Rotate CCW, (1,4,0))
+Operator 32: Move
+Node 32: (32, 107, Move, (0,4,0))
+Operator 33: Rotate CCW
+Node 33: (33, 108, Rotate CCW, (0,4,7))
+Operator 34: Rotate CCW
+Node 34: (34, 109, Rotate CCW, (0,4,6))
+Operator 35: Move
+Node 35: (35, 114, Move, (0,3,6))
+Operator 36: Move
+Node 36: (36, 119, Move, (0,2,6))
+Operator 37: Move
+Node 37: (37, 122, Move, (0,1,6))
+Operator 38: Move
+Node 38: (38, 131, Move, (0,0,6))
+Operator 39: Rotate CCW
+Node 39: (39, 132, Rotate CCW, (0,0,5))
+Operator 40: Rotate CCW
+Node 40: (40, 133, Rotate CCW, (0,0,4))
+Operator 41: Move
+Node 41: (41, 134, Move, (1,0,4))
+Operator 42: Move
+Node 42: (42, 140, Move, (2,0,4))
+Operator 43: Move
+Node 43: (43, 143, Move, (3,0,4))
+Operator 44: Move
+Node 44: (44, 147, Move, (4,0,4))
+Operator 45: Rotate CCW
+Node 45: (45, 148, Rotate CCW, (4,0,3))
+Operator 46: Rotate CCW
+Node 46: (46, 149, Rotate CCW, (4,0,2))
+Operator 47: Move
+Node 47: (47, 154, Move, (4,1,2))
+Operator 48: Move
+Node 48: (48, 161, Move, (4,2,2))
+Operator 49: Move
+Node 49: (49, 166, Move, (4,3,2))
+Operator 50: Move
+Node 50: (50, 174, Move, (4,4,2))
+Operator 51: Rotate CCW
+Node 51 (final node): (51, 175, Rotate CCW, (4,4,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 51
+Final cost: 175
+Total number of items in explored list: 51
+Total number of items in frontier: 56
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_1 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 4, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 4, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 4, (0,0,2))
+Operator 3: Move
+Node 3: (3, 5, Move, 4, (0,1,2))
+Operator 4: Rotate CW
+Node 4: (4, 6, Rotate CW, 4, (0,1,3))
+Operator 5: Move
+Node 5: (5, 12, Move, 3, (1,2,3))
+Operator 6: Move
+Node 6: (6, 14, Move, 2, (2,3,3))
+Operator 7: Move
+Node 7: (7, 15, Move, 1, (3,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 16, Rotate CW, 1, (3,4,4))
+Operator 9: Move
+Node 9: (9, 24, Move, 0, (4,4,4))
+Operator 10: Rotate CCW
+Node 10: (10, 25, Rotate CCW, 0, (4,4,3))
+Operator 11: Rotate CCW
+Node 11: (11, 26, Rotate CCW, 0, (4,4,2))
+Operator 12: Rotate CCW
+Node 12 (final node): (12, 27, Rotate CCW, 0, (4,4,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 12
+Final cost: 27
+Total number of items in explored list: 188
+Total number of items in frontier: 8
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_2 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 9, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 10, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 14, Move, (3,3,3))
+Operator 7: Move
+Node 7 (final node): (7, 22, Move, (4,4,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 7
+Final cost: 22
+Total number of items in explored list: 35
+Total number of items in frontier: 24
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_2 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 5, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 9, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 10, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 14, Move, (0,4,2))
+Operator 7: Rotate CW
+Node 7: (7, 15, Rotate CW, (0,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 16, Rotate CW, (0,4,4))
+Operator 9: Move
+Node 9: (9, 20, Move, (1,4,4))
+Operator 10: Move
+Node 10: (10, 21, Move, (2,4,4))
+Operator 11: Move
+Node 11: (11, 26, Move, (3,4,4))
+Operator 12: Move
+Node 12: (12, 34, Move, (4,4,4))
+Operator 13: Rotate CCW
+Node 13 (final node): (13, 35, Rotate CCW, (4,4,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 13
+Final cost: 35
+Total number of items in explored list: 13
+Total number of items in frontier: 16
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_2 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 4, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 4, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 4, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 4, (0,0,3))
+Operator 4: Move
+Node 4: (4, 9, Move, 3, (1,1,3))
+Operator 5: Move
+Node 5: (5, 10, Move, 2, (2,2,3))
+Operator 6: Move
+Node 6: (6, 14, Move, 1, (3,3,3))
+Operator 7: Move
+Node 7 (final node): (7, 22, Move, 0, (4,4,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 7
+Final cost: 22
+Total number of items in explored list: 129
+Total number of items in frontier: 27
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_3 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 7, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 15, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 20, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 24, Move, (4,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 25, Rotate CW, (4,4,4))
+Operator 9: Rotate CW
+Node 9 (final node): (9, 26, Rotate CW, (4,4,5))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 9
+Final cost: 26
+Total number of items in explored list: 93
+Total number of items in frontier: 36
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_3 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 6, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 10, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 11, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 16, Move, (0,4,2))
+Operator 7: Rotate CW
+Node 7: (7, 17, Rotate CW, (0,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 18, Rotate CW, (0,4,4))
+Operator 9: Move
+Node 9: (9, 27, Move, (1,4,4))
+Operator 10: Move
+Node 10: (10, 30, Move, (2,4,4))
+Operator 11: Move
+Node 11: (11, 36, Move, (3,4,4))
+Operator 12: Move
+Node 12: (12, 40, Move, (4,4,4))
+Operator 13: Rotate CW
+Node 13 (final node): (13, 41, Rotate CW, (4,4,5))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 13
+Final cost: 41
+Total number of items in explored list: 13
+Total number of items in frontier: 17
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_3 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 4, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 4, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 4, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 4, (0,0,3))
+Operator 4: Move
+Node 4: (4, 7, Move, 3, (1,1,3))
+Operator 5: Move
+Node 5: (5, 15, Move, 2, (2,2,3))
+Operator 6: Move
+Node 6: (6, 20, Move, 1, (3,3,3))
+Operator 7: Move
+Node 7: (7, 24, Move, 0, (4,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 25, Rotate CW, 0, (4,4,4))
+Operator 9: Rotate CW
+Node 9 (final node): (9, 26, Rotate CW, 0, (4,4,5))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 9
+Final cost: 26
+Total number of items in explored list: 164
+Total number of items in frontier: 16
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_4 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 8, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 10, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 11, Move, (3,3,3))
+Operator 7: Move
+Node 7 (final node): (7, 19, Move, (4,4,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 7
+Final cost: 19
+Total number of items in explored list: 35
+Total number of items in frontier: 24
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_4 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 9, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 10, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 14, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 16, Move, (0,4,2))
+Operator 7: Rotate CW
+Node 7: (7, 17, Rotate CW, (0,4,3))
+Operator 8: Rotate CW
+Node 8: (8, 18, Rotate CW, (0,4,4))
+Operator 9: Move
+Node 9: (9, 25, Move, (1,4,4))
+Operator 10: Move
+Node 10: (10, 33, Move, (2,4,4))
+Operator 11: Move
+Node 11: (11, 42, Move, (3,4,4))
+Operator 12: Move
+Node 12: (12, 50, Move, (4,4,4))
+Operator 13: Rotate CCW
+Node 13 (final node): (13, 51, Rotate CCW, (4,4,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 13
+Final cost: 51
+Total number of items in explored list: 13
+Total number of items in frontier: 16
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap5x5_4 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 4, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 4, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 4, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 4, (0,0,3))
+Operator 4: Move
+Node 4: (4, 8, Move, 3, (1,1,3))
+Operator 5: Move
+Node 5: (5, 10, Move, 2, (2,2,3))
+Operator 6: Move
+Node 6: (6, 11, Move, 1, (3,3,3))
+Operator 7: Move
+Node 7 (final node): (7, 19, Move, 0, (4,4,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 7
+Final cost: 19
+Total number of items in explored list: 82
+Total number of items in frontier: 30
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_0 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 9, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 12, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 13, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 19, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 27, Move, (5,5,3))
+Operator 9: Move
+Node 9 (final node): (9, 33, Move, (6,6,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 9
+Final cost: 33
+Total number of items in explored list: 101
+Total number of items in frontier: 54
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_0 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 10, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 13, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 21, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 29, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 35, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 42, Move, (0,6,2))
+Operator 9: Rotate CW
+Node 9: (9, 43, Rotate CW, (0,6,3))
+Operator 10: Rotate CW
+Node 10: (10, 44, Rotate CW, (0,6,4))
+Operator 11: Move
+Node 11: (11, 46, Move, (1,6,4))
+Operator 12: Move
+Node 12: (12, 52, Move, (2,6,4))
+Operator 13: Move
+Node 13: (13, 54, Move, (3,6,4))
+Operator 14: Move
+Node 14: (14, 63, Move, (4,6,4))
+Operator 15: Move
+Node 15: (15, 70, Move, (5,6,4))
+Operator 16: Move
+Node 16: (16, 76, Move, (6,6,4))
+Operator 17: Rotate CCW
+Node 17 (final node): (17, 77, Rotate CCW, (6,6,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 17
+Final cost: 77
+Total number of items in explored list: 17
+Total number of items in frontier: 24
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_0 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 6, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 6, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 6, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 6, (0,0,3))
+Operator 4: Move
+Node 4: (4, 9, Move, 5, (1,1,3))
+Operator 5: Move
+Node 5: (5, 12, Move, 4, (2,2,3))
+Operator 6: Move
+Node 6: (6, 13, Move, 3, (3,3,3))
+Operator 7: Move
+Node 7: (7, 19, Move, 2, (4,4,3))
+Operator 8: Move
+Node 8: (8, 27, Move, 1, (5,5,3))
+Operator 9: Move
+Node 9 (final node): (9, 33, Move, 0, (6,6,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 9
+Final cost: 33
+Total number of items in explored list: 300
+Total number of items in frontier: 34
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_1 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 10, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 15, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 22, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 28, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 32, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 36, Move, (6,6,3))
+Operator 10: Rotate CCW
+Node 10 (final node): (10, 37, Rotate CCW, (6,6,2))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 10
+Final cost: 37
+Total number of items in explored list: 156
+Total number of items in frontier: 63
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_1 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 5, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 11, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 17, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 22, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 27, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 29, Move, (0,6,2))
+Operator 9: Rotate CW
+Node 9: (9, 30, Rotate CW, (0,6,3))
+Operator 10: Rotate CW
+Node 10: (10, 31, Rotate CW, (0,6,4))
+Operator 11: Move
+Node 11: (11, 36, Move, (1,6,4))
+Operator 12: Move
+Node 12: (12, 41, Move, (2,6,4))
+Operator 13: Move
+Node 13: (13, 44, Move, (3,6,4))
+Operator 14: Move
+Node 14: (14, 47, Move, (4,6,4))
+Operator 15: Move
+Node 15: (15, 54, Move, (5,6,4))
+Operator 16: Move
+Node 16: (16, 58, Move, (6,6,4))
+Operator 17: Rotate CW
+Node 17: (17, 59, Rotate CW, (6,6,5))
+Operator 18: Rotate CW
+Node 18: (18, 60, Rotate CW, (6,6,6))
+Operator 19: Move
+Node 19: (19, 61, Move, (6,5,6))
+Operator 20: Move
+Node 20: (20, 65, Move, (6,4,6))
+Operator 21: Move
+Node 21: (21, 74, Move, (6,3,6))
+Operator 22: Move
+Node 22: (22, 75, Move, (6,2,6))
+Operator 23: Move
+Node 23: (23, 76, Move, (6,1,6))
+Operator 24: Move
+Node 24: (24, 79, Move, (6,0,6))
+Operator 25: Rotate CW
+Node 25: (25, 80, Rotate CW, (6,0,7))
+Operator 26: Rotate CW
+Node 26: (26, 81, Rotate CW, (6,0,0))
+Operator 27: Move
+Node 27: (27, 84, Move, (5,0,0))
+Operator 28: Move
+Node 28: (28, 89, Move, (4,0,0))
+Operator 29: Move
+Node 29: (29, 91, Move, (3,0,0))
+Operator 30: Move
+Node 30: (30, 96, Move, (2,0,0))
+Operator 31: Move
+Node 31: (31, 103, Move, (1,0,0))
+Operator 32: Rotate CW
+Node 32: (32, 104, Rotate CW, (1,0,1))
+Operator 33: Rotate CW
+Node 33: (33, 105, Rotate CW, (1,0,2))
+Operator 34: Move
+Node 34: (34, 112, Move, (1,1,2))
+Operator 35: Move
+Node 35: (35, 115, Move, (1,2,2))
+Operator 36: Move
+Node 36: (36, 119, Move, (1,3,2))
+Operator 37: Move
+Node 37: (37, 128, Move, (1,4,2))
+Operator 38: Move
+Node 38: (38, 130, Move, (1,5,2))
+Operator 39: Move
+Node 39: (39, 135, Move, (1,6,2))
+Operator 40: Rotate CCW
+Node 40: (40, 136, Rotate CCW, (1,6,1))
+Operator 41: Rotate CCW
+Node 41: (41, 137, Rotate CCW, (1,6,0))
+Operator 42: Move
+Node 42: (42, 139, Move, (0,6,0))
+Operator 43: Rotate CCW
+Node 43: (43, 140, Rotate CCW, (0,6,7))
+Operator 44: Rotate CCW
+Node 44: (44, 141, Rotate CCW, (0,6,6))
+Operator 45: Move
+Node 45: (45, 146, Move, (0,5,6))
+Operator 46: Move
+Node 46: (46, 151, Move, (0,4,6))
+Operator 47: Move
+Node 47: (47, 157, Move, (0,3,6))
+Operator 48: Move
+Node 48: (48, 163, Move, (0,2,6))
+Operator 49: Move
+Node 49: (49, 166, Move, (0,1,6))
+Operator 50: Move
+Node 50: (50, 172, Move, (0,0,6))
+Operator 51: Rotate CCW
+Node 51: (51, 173, Rotate CCW, (0,0,5))
+Operator 52: Rotate CCW
+Node 52: (52, 174, Rotate CCW, (0,0,4))
+Operator 53: Move
+Node 53: (53, 181, Move, (1,0,4))
+Operator 54: Move
+Node 54: (54, 186, Move, (2,0,4))
+Operator 55: Move
+Node 55: (55, 188, Move, (3,0,4))
+Operator 56: Move
+Node 56: (56, 193, Move, (4,0,4))
+Operator 57: Move
+Node 57: (57, 196, Move, (5,0,4))
+Operator 58: Move
+Node 58: (58, 199, Move, (6,0,4))
+Operator 59: Rotate CCW
+Node 59: (59, 200, Rotate CCW, (6,0,3))
+Operator 60: Rotate CCW
+Node 60: (60, 201, Rotate CCW, (6,0,2))
+Operator 61: Move
+Node 61: (61, 202, Move, (6,1,2))
+Operator 62: Move
+Node 62: (62, 203, Move, (6,2,2))
+Operator 63: Move
+Node 63: (63, 212, Move, (6,3,2))
+Operator 64: Move
+Node 64: (64, 216, Move, (6,4,2))
+Operator 65: Move
+Node 65: (65, 217, Move, (6,5,2))
+Operator 66: Move
+Node 66 (final node): (66, 221, Move, (6,6,2))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 66
+Final cost: 221
+Total number of items in explored list: 66
+Total number of items in frontier: 88
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_1 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 6, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 6, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 6, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 6, (0,0,3))
+Operator 4: Rotate CW
+Node 4: (4, 4, Rotate CW, 6, (0,0,4))
+Operator 5: Move
+Node 5: (5, 11, Move, 6, (1,0,4))
+Operator 6: Move
+Node 6: (6, 16, Move, 6, (2,0,4))
+Operator 7: Rotate CCW
+Node 7: (7, 17, Rotate CCW, 6, (2,0,3))
+Operator 8: Move
+Node 8: (8, 18, Move, 5, (3,1,3))
+Operator 9: Move
+Node 9: (9, 21, Move, 4, (4,2,3))
+Operator 10: Move
+Node 10: (10, 24, Move, 3, (5,3,3))
+Operator 11: Move
+Node 11: (11, 28, Move, 2, (6,4,3))
+Operator 12: Rotate CCW
+Node 12: (12, 29, Rotate CCW, 2, (6,4,2))
+Operator 13: Move
+Node 13: (13, 30, Move, 1, (6,5,2))
+Operator 14: Move
+Node 14 (final node): (14, 34, Move, 0, (6,6,2))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 14
+Final cost: 34
+Total number of items in explored list: 333
+Total number of items in frontier: 30
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_2 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 12, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 17, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 18, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 23, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 29, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 38, Move, (6,6,3))
+Operator 10: Rotate CCW
+Node 10: (10, 39, Rotate CCW, (6,6,2))
+Operator 11: Rotate CCW
+Node 11 (final node): (11, 40, Rotate CCW, (6,6,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 11
+Final cost: 40
+Total number of items in explored list: 220
+Total number of items in frontier: 62
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_2 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 11, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 20, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 21, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 22, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 30, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 32, Move, (0,6,2))
+Operator 9: Rotate CW
+Node 9: (9, 33, Rotate CW, (0,6,3))
+Operator 10: Rotate CW
+Node 10: (10, 34, Rotate CW, (0,6,4))
+Operator 11: Move
+Node 11: (11, 43, Move, (1,6,4))
+Operator 12: Move
+Node 12: (12, 46, Move, (2,6,4))
+Operator 13: Move
+Node 13: (13, 49, Move, (3,6,4))
+Operator 14: Move
+Node 14: (14, 56, Move, (4,6,4))
+Operator 15: Move
+Node 15: (15, 58, Move, (5,6,4))
+Operator 16: Move
+Node 16: (16, 67, Move, (6,6,4))
+Operator 17: Rotate CW
+Node 17: (17, 68, Rotate CW, (6,6,5))
+Operator 18: Rotate CW
+Node 18: (18, 69, Rotate CW, (6,6,6))
+Operator 19: Move
+Node 19: (19, 71, Move, (6,5,6))
+Operator 20: Move
+Node 20: (20, 79, Move, (6,4,6))
+Operator 21: Move
+Node 21: (21, 82, Move, (6,3,6))
+Operator 22: Move
+Node 22: (22, 84, Move, (6,2,6))
+Operator 23: Move
+Node 23: (23, 93, Move, (6,1,6))
+Operator 24: Move
+Node 24: (24, 100, Move, (6,0,6))
+Operator 25: Rotate CW
+Node 25: (25, 101, Rotate CW, (6,0,7))
+Operator 26: Rotate CW
+Node 26: (26, 102, Rotate CW, (6,0,0))
+Operator 27: Move
+Node 27: (27, 104, Move, (5,0,0))
+Operator 28: Move
+Node 28: (28, 109, Move, (4,0,0))
+Operator 29: Move
+Node 29: (29, 110, Move, (3,0,0))
+Operator 30: Move
+Node 30: (30, 116, Move, (2,0,0))
+Operator 31: Move
+Node 31: (31, 118, Move, (1,0,0))
+Operator 32: Rotate CW
+Node 32: (32, 119, Rotate CW, (1,0,1))
+Operator 33: Rotate CW
+Node 33: (33, 120, Rotate CW, (1,0,2))
+Operator 34: Move
+Node 34: (34, 129, Move, (1,1,2))
+Operator 35: Move
+Node 35: (35, 131, Move, (1,2,2))
+Operator 36: Move
+Node 36: (36, 139, Move, (1,3,2))
+Operator 37: Move
+Node 37: (37, 147, Move, (1,4,2))
+Operator 38: Move
+Node 38: (38, 149, Move, (1,5,2))
+Operator 39: Move
+Node 39: (39, 158, Move, (1,6,2))
+Operator 40: Rotate CCW
+Node 40: (40, 159, Rotate CCW, (1,6,1))
+Operator 41: Rotate CCW
+Node 41: (41, 160, Rotate CCW, (1,6,0))
+Operator 42: Move
+Node 42: (42, 162, Move, (0,6,0))
+Operator 43: Rotate CCW
+Node 43: (43, 163, Rotate CCW, (0,6,7))
+Operator 44: Rotate CCW
+Node 44: (44, 164, Rotate CCW, (0,6,6))
+Operator 45: Move
+Node 45: (45, 172, Move, (0,5,6))
+Operator 46: Move
+Node 46: (46, 173, Move, (0,4,6))
+Operator 47: Move
+Node 47: (47, 174, Move, (0,3,6))
+Operator 48: Move
+Node 48: (48, 183, Move, (0,2,6))
+Operator 49: Move
+Node 49: (49, 192, Move, (0,1,6))
+Operator 50: Move
+Node 50: (50, 199, Move, (0,0,6))
+Operator 51: Rotate CCW
+Node 51: (51, 200, Rotate CCW, (0,0,5))
+Operator 52: Rotate CCW
+Node 52: (52, 201, Rotate CCW, (0,0,4))
+Operator 53: Move
+Node 53: (53, 203, Move, (1,0,4))
+Operator 54: Move
+Node 54: (54, 209, Move, (2,0,4))
+Operator 55: Move
+Node 55: (55, 210, Move, (3,0,4))
+Operator 56: Move
+Node 56: (56, 215, Move, (4,0,4))
+Operator 57: Move
+Node 57: (57, 217, Move, (5,0,4))
+Operator 58: Move
+Node 58: (58, 224, Move, (6,0,4))
+Operator 59: Rotate CCW
+Node 59: (59, 225, Rotate CCW, (6,0,3))
+Operator 60: Rotate CCW
+Node 60: (60, 226, Rotate CCW, (6,0,2))
+Operator 61: Move
+Node 61: (61, 235, Move, (6,1,2))
+Operator 62: Move
+Node 62: (62, 237, Move, (6,2,2))
+Operator 63: Move
+Node 63: (63, 240, Move, (6,3,2))
+Operator 64: Move
+Node 64: (64, 248, Move, (6,4,2))
+Operator 65: Move
+Node 65: (65, 250, Move, (6,5,2))
+Operator 66: Move
+Node 66: (66, 259, Move, (6,6,2))
+Operator 67: Rotate CCW
+Node 67 (final node): (67, 260, Rotate CCW, (6,6,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 67
+Final cost: 260
+Total number of items in explored list: 67
+Total number of items in frontier: 88
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_2 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 6, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 6, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 6, (0,0,2))
+Operator 3: Move
+Node 3: (3, 11, Move, 6, (0,1,2))
+Operator 4: Rotate CW
+Node 4: (4, 12, Rotate CW, 6, (0,1,3))
+Operator 5: Move
+Node 5: (5, 14, Move, 5, (1,2,3))
+Operator 6: Move
+Node 6: (6, 15, Move, 4, (2,3,3))
+Operator 7: Rotate CW
+Node 7: (7, 16, Rotate CW, 4, (2,3,4))
+Operator 8: Move
+Node 8: (8, 17, Move, 3, (3,3,4))
+Operator 9: Rotate CCW
+Node 9: (9, 18, Rotate CCW, 3, (3,3,3))
+Operator 10: Move
+Node 10: (10, 23, Move, 2, (4,4,3))
+Operator 11: Move
+Node 11: (11, 29, Move, 1, (5,5,3))
+Operator 12: Move
+Node 12: (12, 38, Move, 0, (6,6,3))
+Operator 13: Rotate CCW
+Node 13: (13, 39, Rotate CCW, 0, (6,6,2))
+Operator 14: Rotate CCW
+Node 14 (final node): (14, 40, Rotate CCW, 0, (6,6,1))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 14
+Final cost: 40
+Total number of items in explored list: 385
+Total number of items in frontier: 3
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_3 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 11, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 13, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 22, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 23, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 32, Move, (5,5,3))
+Operator 9: Move
+Node 9 (final node): (9, 40, Move, (6,6,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 9
+Final cost: 40
+Total number of items in explored list: 101
+Total number of items in frontier: 54
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_3 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 9, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 10, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 11, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 18, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 25, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 33, Move, (0,6,2))
+Operator 9: Rotate CW
+Node 9: (9, 34, Rotate CW, (0,6,3))
+Operator 10: Rotate CW
+Node 10: (10, 35, Rotate CW, (0,6,4))
+Operator 11: Move
+Node 11: (11, 41, Move, (1,6,4))
+Operator 12: Move
+Node 12: (12, 47, Move, (2,6,4))
+Operator 13: Move
+Node 13: (13, 53, Move, (3,6,4))
+Operator 14: Move
+Node 14: (14, 60, Move, (4,6,4))
+Operator 15: Move
+Node 15: (15, 67, Move, (5,6,4))
+Operator 16: Move
+Node 16: (16, 75, Move, (6,6,4))
+Operator 17: Rotate CCW
+Node 17 (final node): (17, 76, Rotate CCW, (6,6,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 17
+Final cost: 76
+Total number of items in explored list: 17
+Total number of items in frontier: 24
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_3 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 6, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 6, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 6, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 6, (0,0,3))
+Operator 4: Move
+Node 4: (4, 11, Move, 5, (1,1,3))
+Operator 5: Move
+Node 5: (5, 13, Move, 4, (2,2,3))
+Operator 6: Move
+Node 6: (6, 22, Move, 3, (3,3,3))
+Operator 7: Move
+Node 7: (7, 23, Move, 2, (4,4,3))
+Operator 8: Move
+Node 8: (8, 32, Move, 1, (5,5,3))
+Operator 9: Move
+Node 9 (final node): (9, 40, Move, 0, (6,6,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 9
+Final cost: 40
+Total number of items in explored list: 361
+Total number of items in frontier: 16
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_4 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 5, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 7, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 8, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 9, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 10, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 17, Move, (6,6,3))
+Operator 10: Rotate CW
+Node 10: (10, 18, Rotate CW, (6,6,4))
+Operator 11: Rotate CW
+Node 11: (11, 19, Rotate CW, (6,6,5))
+Operator 12: Rotate CW
+Node 12 (final node): (12, 20, Rotate CW, (6,6,6))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 12
+Final cost: 20
+Total number of items in explored list: 282
+Total number of items in frontier: 52
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_4 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 6, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 14, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 23, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 27, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 35, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 44, Move, (0,6,2))
+Operator 9: Rotate CW
+Node 9: (9, 45, Rotate CW, (0,6,3))
+Operator 10: Rotate CW
+Node 10: (10, 46, Rotate CW, (0,6,4))
+Operator 11: Move
+Node 11: (11, 47, Move, (1,6,4))
+Operator 12: Move
+Node 12: (12, 52, Move, (2,6,4))
+Operator 13: Move
+Node 13: (13, 57, Move, (3,6,4))
+Operator 14: Move
+Node 14: (14, 66, Move, (4,6,4))
+Operator 15: Move
+Node 15: (15, 71, Move, (5,6,4))
+Operator 16: Move
+Node 16: (16, 78, Move, (6,6,4))
+Operator 17: Rotate CW
+Node 17: (17, 79, Rotate CW, (6,6,5))
+Operator 18: Rotate CW
+Node 18 (final node): (18, 80, Rotate CW, (6,6,6))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 18
+Final cost: 80
+Total number of items in explored list: 18
+Total number of items in frontier: 25
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap7x7_4 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 6, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 6, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 6, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 6, (0,0,3))
+Operator 4: Move
+Node 4: (4, 5, Move, 5, (1,1,3))
+Operator 5: Move
+Node 5: (5, 7, Move, 4, (2,2,3))
+Operator 6: Move
+Node 6: (6, 8, Move, 3, (3,3,3))
+Operator 7: Move
+Node 7: (7, 9, Move, 2, (4,4,3))
+Operator 8: Move
+Node 8: (8, 10, Move, 1, (5,5,3))
+Operator 9: Move
+Node 9: (9, 17, Move, 0, (6,6,3))
+Operator 10: Rotate CW
+Node 10: (10, 18, Rotate CW, 0, (6,6,4))
+Operator 11: Rotate CW
+Node 11: (11, 19, Rotate CW, 0, (6,6,5))
+Operator 12: Rotate CW
+Node 12 (final node): (12, 20, Rotate CW, 0, (6,6,6))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 12
+Final cost: 20
+Total number of items in explored list: 160
+Total number of items in frontier: 59
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_0 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 11, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 16, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 18, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 20, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 24, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 26, Move, (6,6,3))
+Operator 10: Move
+Node 10: (10, 31, Move, (7,7,3))
+Operator 11: Move
+Node 11 (final node): (11, 32, Move, (8,8,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 11
+Final cost: 32
+Total number of items in explored list: 229
+Total number of items in frontier: 86
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_0 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 5, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 8, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 10, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 13, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 20, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 28, Move, (0,6,2))
+Operator 9: Move
+Node 9: (9, 32, Move, (0,7,2))
+Operator 10: Move
+Node 10: (10, 33, Move, (0,8,2))
+Operator 11: Rotate CW
+Node 11: (11, 34, Rotate CW, (0,8,3))
+Operator 12: Rotate CW
+Node 12: (12, 35, Rotate CW, (0,8,4))
+Operator 13: Move
+Node 13: (13, 44, Move, (1,8,4))
+Operator 14: Move
+Node 14: (14, 50, Move, (2,8,4))
+Operator 15: Move
+Node 15: (15, 55, Move, (3,8,4))
+Operator 16: Move
+Node 16: (16, 62, Move, (4,8,4))
+Operator 17: Move
+Node 17: (17, 71, Move, (5,8,4))
+Operator 18: Move
+Node 18: (18, 77, Move, (6,8,4))
+Operator 19: Move
+Node 19: (19, 82, Move, (7,8,4))
+Operator 20: Move
+Node 20: (20, 83, Move, (8,8,4))
+Operator 21: Rotate CCW
+Node 21 (final node): (21, 84, Rotate CCW, (8,8,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 21
+Final cost: 84
+Total number of items in explored list: 21
+Total number of items in frontier: 32
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_0 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 8, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 8, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 8, (0,0,2))
+Operator 3: Move
+Node 3: (3, 5, Move, 8, (0,1,2))
+Operator 4: Move
+Node 4: (4, 8, Move, 8, (0,2,2))
+Operator 5: Move
+Node 5: (5, 10, Move, 8, (0,3,2))
+Operator 6: Rotate CW
+Node 6: (6, 11, Rotate CW, 8, (0,3,3))
+Operator 7: Move
+Node 7: (7, 12, Move, 7, (1,4,3))
+Operator 8: Move
+Node 8: (8, 14, Move, 6, (2,5,3))
+Operator 9: Rotate CW
+Node 9: (9, 15, Rotate CW, 6, (2,5,4))
+Operator 10: Move
+Node 10: (10, 16, Move, 5, (3,5,4))
+Operator 11: Rotate CCW
+Node 11: (11, 17, Rotate CCW, 5, (3,5,3))
+Operator 12: Move
+Node 12: (12, 18, Move, 4, (4,6,3))
+Operator 13: Move
+Node 13: (13, 20, Move, 3, (5,7,3))
+Operator 14: Rotate CW
+Node 14: (14, 21, Rotate CW, 3, (5,7,4))
+Operator 15: Rotate CW
+Node 15: (15, 22, Rotate CW, 3, (5,7,5))
+Operator 16: Move
+Node 16: (16, 24, Move, 2, (6,6,5))
+Operator 17: Rotate CCW
+Node 17: (17, 25, Rotate CCW, 2, (6,6,4))
+Operator 18: Rotate CCW
+Node 18: (18, 26, Rotate CCW, 2, (6,6,3))
+Operator 19: Move
+Node 19: (19, 31, Move, 1, (7,7,3))
+Operator 20: Move
+Node 20 (final node): (20, 32, Move, 0, (8,8,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 20
+Final cost: 32
+Total number of items in explored list: 323
+Total number of items in frontier: 92
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_1 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 6, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 11, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 19, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 23, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 28, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 34, Move, (6,6,3))
+Operator 10: Move
+Node 10: (10, 41, Move, (7,7,3))
+Operator 11: Move
+Node 11: (11, 46, Move, (8,8,3))
+Operator 12: Rotate CCW
+Node 12 (final node): (12, 47, Rotate CCW, (8,8,2))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 12
+Final cost: 47
+Total number of items in explored list: 316
+Total number of items in frontier: 93
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_1 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 10, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 17, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 19, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 21, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 30, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 34, Move, (0,6,2))
+Operator 9: Move
+Node 9: (9, 41, Move, (0,7,2))
+Operator 10: Move
+Node 10: (10, 43, Move, (0,8,2))
+Operator 11: Rotate CW
+Node 11: (11, 44, Rotate CW, (0,8,3))
+Operator 12: Rotate CW
+Node 12: (12, 45, Rotate CW, (0,8,4))
+Operator 13: Move
+Node 13: (13, 47, Move, (1,8,4))
+Operator 14: Move
+Node 14: (14, 55, Move, (2,8,4))
+Operator 15: Move
+Node 15: (15, 62, Move, (3,8,4))
+Operator 16: Move
+Node 16: (16, 63, Move, (4,8,4))
+Operator 17: Move
+Node 17: (17, 64, Move, (5,8,4))
+Operator 18: Move
+Node 18: (18, 65, Move, (6,8,4))
+Operator 19: Move
+Node 19: (19, 74, Move, (7,8,4))
+Operator 20: Move
+Node 20: (20, 79, Move, (8,8,4))
+Operator 21: Rotate CW
+Node 21: (21, 80, Rotate CW, (8,8,5))
+Operator 22: Rotate CW
+Node 22: (22, 81, Rotate CW, (8,8,6))
+Operator 23: Move
+Node 23: (23, 85, Move, (8,7,6))
+Operator 24: Move
+Node 24: (24, 94, Move, (8,6,6))
+Operator 25: Move
+Node 25: (25, 101, Move, (8,5,6))
+Operator 26: Move
+Node 26: (26, 102, Move, (8,4,6))
+Operator 27: Move
+Node 27: (27, 109, Move, (8,3,6))
+Operator 28: Move
+Node 28: (28, 111, Move, (8,2,6))
+Operator 29: Move
+Node 29: (29, 117, Move, (8,1,6))
+Operator 30: Move
+Node 30: (30, 122, Move, (8,0,6))
+Operator 31: Rotate CW
+Node 31: (31, 123, Rotate CW, (8,0,7))
+Operator 32: Rotate CW
+Node 32: (32, 124, Rotate CW, (8,0,0))
+Operator 33: Move
+Node 33: (33, 125, Move, (7,0,0))
+Operator 34: Move
+Node 34: (34, 127, Move, (6,0,0))
+Operator 35: Move
+Node 35: (35, 134, Move, (5,0,0))
+Operator 36: Move
+Node 36: (36, 142, Move, (4,0,0))
+Operator 37: Move
+Node 37: (37, 145, Move, (3,0,0))
+Operator 38: Move
+Node 38: (38, 150, Move, (2,0,0))
+Operator 39: Move
+Node 39: (39, 159, Move, (1,0,0))
+Operator 40: Rotate CW
+Node 40: (40, 160, Rotate CW, (1,0,1))
+Operator 41: Rotate CW
+Node 41: (41, 161, Rotate CW, (1,0,2))
+Operator 42: Move
+Node 42: (42, 164, Move, (1,1,2))
+Operator 43: Move
+Node 43: (43, 166, Move, (1,2,2))
+Operator 44: Move
+Node 44: (44, 169, Move, (1,3,2))
+Operator 45: Move
+Node 45: (45, 172, Move, (1,4,2))
+Operator 46: Move
+Node 46: (46, 173, Move, (1,5,2))
+Operator 47: Move
+Node 47: (47, 178, Move, (1,6,2))
+Operator 48: Move
+Node 48: (48, 184, Move, (1,7,2))
+Operator 49: Move
+Node 49: (49, 186, Move, (1,8,2))
+Operator 50: Rotate CCW
+Node 50: (50, 187, Rotate CCW, (1,8,1))
+Operator 51: Rotate CCW
+Node 51: (51, 188, Rotate CCW, (1,8,0))
+Operator 52: Move
+Node 52: (52, 190, Move, (0,8,0))
+Operator 53: Rotate CCW
+Node 53: (53, 191, Rotate CCW, (0,8,7))
+Operator 54: Rotate CCW
+Node 54: (54, 192, Rotate CCW, (0,8,6))
+Operator 55: Move
+Node 55: (55, 199, Move, (0,7,6))
+Operator 56: Move
+Node 56: (56, 203, Move, (0,6,6))
+Operator 57: Move
+Node 57: (57, 212, Move, (0,5,6))
+Operator 58: Move
+Node 58: (58, 214, Move, (0,4,6))
+Operator 59: Move
+Node 59: (59, 216, Move, (0,3,6))
+Operator 60: Move
+Node 60: (60, 223, Move, (0,2,6))
+Operator 61: Move
+Node 61: (61, 231, Move, (0,1,6))
+Operator 62: Move
+Node 62: (62, 238, Move, (0,0,6))
+Operator 63: Rotate CCW
+Node 63: (63, 239, Rotate CCW, (0,0,5))
+Operator 64: Rotate CCW
+Node 64: (64, 240, Rotate CCW, (0,0,4))
+Operator 65: Move
+Node 65: (65, 249, Move, (1,0,4))
+Operator 66: Move
+Node 66: (66, 254, Move, (2,0,4))
+Operator 67: Move
+Node 67: (67, 257, Move, (3,0,4))
+Operator 68: Move
+Node 68: (68, 265, Move, (4,0,4))
+Operator 69: Move
+Node 69: (69, 272, Move, (5,0,4))
+Operator 70: Move
+Node 70: (70, 274, Move, (6,0,4))
+Operator 71: Move
+Node 71: (71, 275, Move, (7,0,4))
+Operator 72: Move
+Node 72: (72, 280, Move, (8,0,4))
+Operator 73: Rotate CCW
+Node 73: (73, 281, Rotate CCW, (8,0,3))
+Operator 74: Rotate CCW
+Node 74: (74, 282, Rotate CCW, (8,0,2))
+Operator 75: Move
+Node 75: (75, 288, Move, (8,1,2))
+Operator 76: Move
+Node 76: (76, 290, Move, (8,2,2))
+Operator 77: Move
+Node 77: (77, 297, Move, (8,3,2))
+Operator 78: Move
+Node 78: (78, 298, Move, (8,4,2))
+Operator 79: Move
+Node 79: (79, 305, Move, (8,5,2))
+Operator 80: Move
+Node 80: (80, 314, Move, (8,6,2))
+Operator 81: Move
+Node 81: (81, 318, Move, (8,7,2))
+Operator 82: Move
+Node 82 (final node): (82, 323, Move, (8,8,2))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 82
+Final cost: 323
+Total number of items in explored list: 82
+Total number of items in frontier: 120
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_1 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 8, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 8, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 8, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 8, (0,0,3))
+Operator 4: Move
+Node 4: (4, 6, Move, 7, (1,1,3))
+Operator 5: Rotate CCW
+Node 5: (5, 7, Rotate CCW, 7, (1,1,2))
+Operator 6: Move
+Node 6: (6, 9, Move, 7, (1,2,2))
+Operator 7: Rotate CW
+Node 7: (7, 10, Rotate CW, 7, (1,2,3))
+Operator 8: Move
+Node 8: (8, 14, Move, 6, (2,3,3))
+Operator 9: Move
+Node 9: (9, 15, Move, 5, (3,4,3))
+Operator 10: Move
+Node 10: (10, 18, Move, 4, (4,5,3))
+Operator 11: Rotate CW
+Node 11: (11, 19, Rotate CW, 4, (4,5,4))
+Operator 12: Move
+Node 12: (12, 24, Move, 3, (5,5,4))
+Operator 13: Move
+Node 13: (13, 26, Move, 3, (6,5,4))
+Operator 14: Rotate CCW
+Node 14: (14, 27, Rotate CCW, 3, (6,5,3))
+Operator 15: Move
+Node 15: (15, 31, Move, 2, (7,6,3))
+Operator 16: Move
+Node 16: (16, 35, Move, 1, (8,7,3))
+Operator 17: Rotate CCW
+Node 17: (17, 36, Rotate CCW, 1, (8,7,2))
+Operator 18: Move
+Node 18 (final node): (18, 41, Move, 0, (8,8,2))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 18
+Final cost: 41
+Total number of items in explored list: 626
+Total number of items in frontier: 11
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_2 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 10, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 19, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 26, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 34, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 42, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 44, Move, (6,6,3))
+Operator 10: Move
+Node 10: (10, 47, Move, (7,7,3))
+Operator 11: Move
+Node 11 (final node): (11, 56, Move, (8,8,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 11
+Final cost: 56
+Total number of items in explored list: 229
+Total number of items in frontier: 86
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_2 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 10, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 12, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 16, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 20, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 24, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 25, Move, (0,6,2))
+Operator 9: Move
+Node 9: (9, 28, Move, (0,7,2))
+Operator 10: Move
+Node 10: (10, 33, Move, (0,8,2))
+Operator 11: Rotate CW
+Node 11: (11, 34, Rotate CW, (0,8,3))
+Operator 12: Rotate CW
+Node 12: (12, 35, Rotate CW, (0,8,4))
+Operator 13: Move
+Node 13: (13, 40, Move, (1,8,4))
+Operator 14: Move
+Node 14: (14, 42, Move, (2,8,4))
+Operator 15: Move
+Node 15: (15, 51, Move, (3,8,4))
+Operator 16: Move
+Node 16: (16, 56, Move, (4,8,4))
+Operator 17: Move
+Node 17: (17, 63, Move, (5,8,4))
+Operator 18: Move
+Node 18: (18, 66, Move, (6,8,4))
+Operator 19: Move
+Node 19: (19, 68, Move, (7,8,4))
+Operator 20: Move
+Node 20 (final node): (20, 77, Move, (8,8,4))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 20
+Final cost: 77
+Total number of items in explored list: 20
+Total number of items in frontier: 32
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_2 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 8, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 8, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 8, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 8, (0,0,3))
+Operator 4: Rotate CW
+Node 4: (4, 4, Rotate CW, 8, (0,0,4))
+Operator 5: Move
+Node 5: (5, 9, Move, 8, (1,0,4))
+Operator 6: Move
+Node 6: (6, 14, Move, 8, (2,0,4))
+Operator 7: Move
+Node 7: (7, 16, Move, 8, (3,0,4))
+Operator 8: Rotate CCW
+Node 8: (8, 17, Rotate CCW, 8, (3,0,3))
+Operator 9: Move
+Node 9: (9, 18, Move, 7, (4,1,3))
+Operator 10: Move
+Node 10: (10, 23, Move, 6, (5,2,3))
+Operator 11: Rotate CCW
+Node 11: (11, 24, Rotate CCW, 6, (5,2,2))
+Operator 12: Move
+Node 12: (12, 25, Move, 5, (5,3,2))
+Operator 13: Move
+Node 13: (13, 26, Move, 4, (5,4,2))
+Operator 14: Rotate CW
+Node 14: (14, 27, Rotate CW, 4, (5,4,3))
+Operator 15: Move
+Node 15: (15, 28, Move, 3, (6,5,3))
+Operator 16: Rotate CCW
+Node 16: (16, 29, Rotate CCW, 3, (6,5,2))
+Operator 17: Move
+Node 17: (17, 31, Move, 2, (6,6,2))
+Operator 18: Rotate CW
+Node 18: (18, 32, Rotate CW, 2, (6,6,3))
+Operator 19: Move
+Node 19: (19, 35, Move, 1, (7,7,3))
+Operator 20: Move
+Node 20 (final node): (20, 44, Move, 0, (8,8,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 20
+Final cost: 44
+Total number of items in explored list: 612
+Total number of items in frontier: 17
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_3 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 4, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 11, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 15, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 16, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 21, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 25, Move, (6,6,3))
+Operator 10: Move
+Node 10: (10, 27, Move, (7,7,3))
+Operator 11: Move
+Node 11: (11, 29, Move, (8,8,3))
+Operator 12: Rotate CW
+Node 12: (12, 30, Rotate CW, (8,8,4))
+Operator 13: Rotate CW
+Node 13: (13, 31, Rotate CW, (8,8,5))
+Operator 14: Rotate CW
+Node 14: (14, 32, Rotate CW, (8,8,6))
+Operator 15: Rotate CW
+Node 15 (final node): (15, 33, Rotate CW, (8,8,7))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 15
+Final cost: 33
+Total number of items in explored list: 571
+Total number of items in frontier: 45
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_3 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 10, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 16, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 25, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 28, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 31, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 35, Move, (0,6,2))
+Operator 9: Move
+Node 9: (9, 44, Move, (0,7,2))
+Operator 10: Move
+Node 10: (10, 53, Move, (0,8,2))
+Operator 11: Rotate CW
+Node 11: (11, 54, Rotate CW, (0,8,3))
+Operator 12: Rotate CW
+Node 12: (12, 55, Rotate CW, (0,8,4))
+Operator 13: Move
+Node 13: (13, 59, Move, (1,8,4))
+Operator 14: Move
+Node 14: (14, 60, Move, (2,8,4))
+Operator 15: Move
+Node 15: (15, 68, Move, (3,8,4))
+Operator 16: Move
+Node 16: (16, 69, Move, (4,8,4))
+Operator 17: Move
+Node 17: (17, 76, Move, (5,8,4))
+Operator 18: Move
+Node 18: (18, 84, Move, (6,8,4))
+Operator 19: Move
+Node 19: (19, 91, Move, (7,8,4))
+Operator 20: Move
+Node 20: (20, 93, Move, (8,8,4))
+Operator 21: Rotate CW
+Node 21: (21, 94, Rotate CW, (8,8,5))
+Operator 22: Rotate CW
+Node 22: (22, 95, Rotate CW, (8,8,6))
+Operator 23: Rotate CW
+Node 23 (final node): (23, 96, Rotate CW, (8,8,7))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 23
+Final cost: 96
+Total number of items in explored list: 23
+Total number of items in frontier: 33
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_3 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 8, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 8, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 8, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 8, (0,0,3))
+Operator 4: Move
+Node 4: (4, 4, Move, 7, (1,1,3))
+Operator 5: Rotate CCW
+Node 5: (5, 5, Rotate CCW, 7, (1,1,2))
+Operator 6: Move
+Node 6: (6, 6, Move, 7, (1,2,2))
+Operator 7: Rotate CW
+Node 7: (7, 7, Rotate CW, 7, (1,2,3))
+Operator 8: Move
+Node 8: (8, 8, Move, 6, (2,3,3))
+Operator 9: Move
+Node 9: (9, 11, Move, 5, (3,4,3))
+Operator 10: Rotate CW
+Node 10: (10, 12, Rotate CW, 5, (3,4,4))
+Operator 11: Move
+Node 11: (11, 13, Move, 4, (4,4,4))
+Operator 12: Move
+Node 12: (12, 14, Move, 4, (5,4,4))
+Operator 13: Rotate CCW
+Node 13: (13, 15, Rotate CCW, 4, (5,4,3))
+Operator 14: Move
+Node 14: (14, 21, Move, 3, (6,5,3))
+Operator 15: Move
+Node 15: (15, 23, Move, 2, (7,6,3))
+Operator 16: Move
+Node 16: (16, 24, Move, 1, (8,7,3))
+Operator 17: Rotate CCW
+Node 17: (17, 25, Rotate CCW, 1, (8,7,2))
+Operator 18: Move
+Node 18: (18, 27, Move, 0, (8,8,2))
+Operator 19: Rotate CCW
+Node 19: (19, 28, Rotate CCW, 0, (8,8,1))
+Operator 20: Rotate CCW
+Node 20: (20, 29, Rotate CCW, 0, (8,8,0))
+Operator 21: Rotate CCW
+Node 21 (final node): (21, 30, Rotate CCW, 0, (8,8,7))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 21
+Final cost: 30
+Total number of items in explored list: 443
+Total number of items in frontier: 73
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_4 WITH ALGORITHM Breadth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, (0,0,3))
+Operator 4: Move
+Node 4: (4, 10, Move, (1,1,3))
+Operator 5: Move
+Node 5: (5, 13, Move, (2,2,3))
+Operator 6: Move
+Node 6: (6, 21, Move, (3,3,3))
+Operator 7: Move
+Node 7: (7, 28, Move, (4,4,3))
+Operator 8: Move
+Node 8: (8, 31, Move, (5,5,3))
+Operator 9: Move
+Node 9: (9, 33, Move, (6,6,3))
+Operator 10: Move
+Node 10: (10, 37, Move, (7,7,3))
+Operator 11: Move
+Node 11 (final node): (11, 40, Move, (8,8,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 11
+Final cost: 40
+Total number of items in explored list: 229
+Total number of items in frontier: 86
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_4 WITH ALGORITHM Depth First ---
+
+Node 0 (starting node): (0, 0, -, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, (0,0,2))
+Operator 3: Move
+Node 3: (3, 9, Move, (0,1,2))
+Operator 4: Move
+Node 4: (4, 12, Move, (0,2,2))
+Operator 5: Move
+Node 5: (5, 18, Move, (0,3,2))
+Operator 6: Move
+Node 6: (6, 21, Move, (0,4,2))
+Operator 7: Move
+Node 7: (7, 25, Move, (0,5,2))
+Operator 8: Move
+Node 8: (8, 27, Move, (0,6,2))
+Operator 9: Move
+Node 9: (9, 33, Move, (0,7,2))
+Operator 10: Move
+Node 10: (10, 39, Move, (0,8,2))
+Operator 11: Rotate CW
+Node 11: (11, 40, Rotate CW, (0,8,3))
+Operator 12: Rotate CW
+Node 12: (12, 41, Rotate CW, (0,8,4))
+Operator 13: Move
+Node 13: (13, 42, Move, (1,8,4))
+Operator 14: Move
+Node 14: (14, 43, Move, (2,8,4))
+Operator 15: Move
+Node 15: (15, 48, Move, (3,8,4))
+Operator 16: Move
+Node 16: (16, 52, Move, (4,8,4))
+Operator 17: Move
+Node 17: (17, 61, Move, (5,8,4))
+Operator 18: Move
+Node 18: (18, 67, Move, (6,8,4))
+Operator 19: Move
+Node 19: (19, 76, Move, (7,8,4))
+Operator 20: Move
+Node 20 (final node): (20, 79, Move, (8,8,4))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 20
+Final cost: 79
+Total number of items in explored list: 20
+Total number of items in frontier: 32
+--------------------------------------------------------------
+
+--- TRACE PRINTING FOR random/randomMap9x9_4 WITH ALGORITHM A* (chessboard) ---
+
+Node 0 (starting node): (0, 0, -, 8, (0,0,0))
+Operator 1: Rotate CW
+Node 1: (1, 1, Rotate CW, 8, (0,0,1))
+Operator 2: Rotate CW
+Node 2: (2, 2, Rotate CW, 8, (0,0,2))
+Operator 3: Rotate CW
+Node 3: (3, 3, Rotate CW, 8, (0,0,3))
+Operator 4: Move
+Node 4: (4, 10, Move, 7, (1,1,3))
+Operator 5: Move
+Node 5: (5, 13, Move, 6, (2,2,3))
+Operator 6: Move
+Node 6: (6, 21, Move, 5, (3,3,3))
+Operator 7: Move
+Node 7: (7, 28, Move, 4, (4,4,3))
+Operator 8: Move
+Node 8: (8, 31, Move, 3, (5,5,3))
+Operator 9: Move
+Node 9: (9, 33, Move, 2, (6,6,3))
+Operator 10: Move
+Node 10: (10, 37, Move, 1, (7,7,3))
+Operator 11: Move
+Node 11 (final node): (11, 40, Move, 0, (8,8,3))
+
+--- TRACE INFORMATION PARAMS ---
+
+Final depth: 11
+Final cost: 40
+Total number of items in explored list: 367
+Total number of items in frontier: 61
+--------------------------------------------------------------
+

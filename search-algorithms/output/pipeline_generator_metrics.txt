@@ -1,0 +1,92 @@
+--- METRICS EXTRACTION FOR 3x3 ---
+
+--- Metrics for algorithm Breadth First ---
+Mean depth: 6.6
+Mean Cost: 14.0
+Mean Explored Nodes: 26.6
+Mean Frontier Nodes: 10.2
+
+--------------------------------------------------------------
+--- Metrics for algorithm Depth First ---
+Mean depth: 19.2
+Mean Cost: 45.6
+Mean Explored Nodes: 19.2
+Mean Frontier Nodes: 14.6
+
+--------------------------------------------------------------
+--- Metrics for algorithm A* (chessboard) ---
+Mean depth: 7.2
+Mean Cost: 13.2
+Mean Explored Nodes: 28.0
+Mean Frontier Nodes: 10.6
+
+--------------------------------------------------------------
+--- METRICS EXTRACTION FOR 5x5 ---
+
+--- Metrics for algorithm Breadth First ---
+Mean depth: 8.6
+Mean Cost: 24.6
+Mean Explored Nodes: 84.0
+Mean Frontier Nodes: 28.2
+
+--------------------------------------------------------------
+--- Metrics for algorithm Depth First ---
+Mean depth: 21.0
+Mean Cost: 68.2
+Mean Explored Nodes: 21.0
+Mean Frontier Nodes: 24.4
+
+--------------------------------------------------------------
+--- Metrics for algorithm A* (chessboard) ---
+Mean depth: 9.2
+Mean Cost: 23.4
+Mean Explored Nodes: 142.2
+Mean Frontier Nodes: 20.6
+
+--------------------------------------------------------------
+--- METRICS EXTRACTION FOR 7x7 ---
+
+--- Metrics for algorithm Breadth First ---
+Mean depth: 10.2
+Mean Cost: 34.0
+Mean Explored Nodes: 172.0
+Mean Frontier Nodes: 57.0
+
+--------------------------------------------------------------
+--- Metrics for algorithm Depth First ---
+Mean depth: 37.0
+Mean Cost: 142.8
+Mean Explored Nodes: 37.0
+Mean Frontier Nodes: 49.8
+
+--------------------------------------------------------------
+--- Metrics for algorithm A* (chessboard) ---
+Mean depth: 11.6
+Mean Cost: 33.4
+Mean Explored Nodes: 307.8
+Mean Frontier Nodes: 28.4
+
+--------------------------------------------------------------
+--- METRICS EXTRACTION FOR 9x9 ---
+
+--- Metrics for algorithm Breadth First ---
+Mean depth: 12.0
+Mean Cost: 41.6
+Mean Explored Nodes: 314.8
+Mean Frontier Nodes: 79.2
+
+--------------------------------------------------------------
+--- Metrics for algorithm Depth First ---
+Mean depth: 33.2
+Mean Cost: 131.8
+Mean Explored Nodes: 33.2
+Mean Frontier Nodes: 49.8
+
+--------------------------------------------------------------
+--- Metrics for algorithm A* (chessboard) ---
+Mean depth: 18.0
+Mean Cost: 37.4
+Mean Explored Nodes: 474.2
+Mean Frontier Nodes: 50.8
+
+--------------------------------------------------------------
