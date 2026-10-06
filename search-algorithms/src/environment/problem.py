@@ -14,7 +14,7 @@ class Problem:
         dx, dy = MOVES[s.o]
         nx, ny = s.x + dx, s.y + dy
         rows, cols = self.cfg.matrixSize
-        return 0 <= nx < rows and 0 <= ny < cols
+        return (0 <= nx < rows and 0 <= ny < cols and self.cfg.board[nx][ny] != 0)
 
     # Returns all possible actions given a state
     def actions(self, s: State):
