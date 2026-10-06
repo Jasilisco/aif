@@ -14,7 +14,7 @@ class Problem:
         dx, dy = MOVES[s.o]
         nx, ny = s.x + dx, s.y + dy
         rows, cols = self.cfg.matrixSize
-        return (0 <= nx < rows and 0 <= ny < cols and self.cfg.board[nx][ny] != 0)
+        return (0 <= nx < rows and 0 <= ny < cols and self.cfg.map[nx][ny] != 0)
 
     # Returns all possible actions given a state
     def actions(self, s: State):
@@ -42,10 +42,10 @@ class Problem:
     def cost(self, s: State, action: str):
         # Base cost for orientation change
         cost = 1
-        # If a move is allowed, the cost is the value of the cell to move in the board
+        # If a move is allowed, the cost is the value of the cell to move in the map
         if action == "Move":
             dx, dy = MOVES[s.o]
-            cost = int(self.cfg.board[s.x + dx][s.y + dy])
+            cost = int(self.cfg.map[s.x + dx][s.y + dy])
         return cost
 
     # Returns True if the given state is the goal of the problem
