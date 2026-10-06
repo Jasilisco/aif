@@ -1,4 +1,5 @@
 import os
+from functools import partial
 import numpy as np
 from src.environment.constants import GENERATOR_SIZES, ALGORITHM_NAMES
 from src.environment.config import Config, INPUT_DIR
@@ -141,6 +142,11 @@ class PipelineGenerator:
         """
         traces_path = OUTPUT_DIR / "pipeline_generator_traces.txt"
         metrics_path = OUTPUT_DIR / "pipeline_generator_metrics.txt"
+        algorithms = (
+            ("bfs", BFS, "solve_bfs", False),
+            ("dfs", DFS, "solve_dfs", False),
+            ("astar", partial(Astar, h=heuristic), "solve_astar", True),
+        )
 
         with open(traces_path, 'w') as traces_file:
             with open(metrics_path, 'w') as metrics_file:
@@ -154,20 +160,16 @@ class PipelineGenerator:
                         print('')
                         cfg = Config(map_name)
                         problem = Problem(cfg)
-                        dfs_solver = DFS(problem)
-                        dfs_result = dfs_solver.solve_dfs()
-                        metrics['dfs'].append(self.node_to_metrics(dfs_result))
-                        bfs_solver = BFS(problem)
-                        bfs_result = bfs_solver.solve_bfs()
-                        metrics['bfs'].append(self.node_to_metrics(bfs_result))
-                        solver = Astar(problem, heuristic)
-                        astar_result = solver.solve_astar()
-                        metrics['astar'].append(self.node_to_metrics(astar_result))
-                        dfs_trace = extract_trace(map_name, ALGORITHM_NAMES['dfs'], *dfs_result)
-                        bfs_trace = extract_trace(map_name, ALGORITHM_NAMES['bfs'], *bfs_result)
-                        astar_trace = extract_trace(map_name, f"{ALGORITHM_NAMES['astar']} ({heuristic})", *astar_result, True)
                         
-                        for trace in (bfs_trace, dfs_trace, astar_trace):
+                        for algorithm, solver_factory, solve_method, is_astar in algorithms:
+                            solver = solver_factory(problem)
+                            result = getattr(solver, solve_method)()
+                            metrics[algorithm].append(self.node_to_metrics(result))
+
+                            algorithm_name = ALGORITHM_NAMES[algorithm]
+                            if is_astar:
+                                algorithm_name = f"{algorithm_name} ({heuristic})"
+                            trace = extract_trace(map_name, algorithm_name, *result, is_astar)
                             traces_file.write(trace + "\n")
 
                     metrics_file.write(self.extract_metrics(f"{size}x{size}", metrics, heuristic))

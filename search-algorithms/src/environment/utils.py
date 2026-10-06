@@ -33,73 +33,21 @@ def format_node(node, astar = False):
     return f"({node.depth}, {node.g}, {op}, {node.h}, {node.state})"
 
 
-def print_trace(solution, last, n_explored, n_frontier, astar= False):
+def _trace_content(solution, last, n_explored, n_frontier, astar):
     """
-    Prints the execution trace: the path from the initial node to the solution
-    (or to the last examined node if there is no solution) and the search statistics.
+    Builds the shared trace body for console and file output.
 
     Args:
         solution (Node | None): Goal node, or None if no solution was found.
-        last (Node): Last examined node.
+        last (Node): Last examined node, used when there is no solution.
         n_explored (int): Number of items in the explored list.
         n_frontier (int): Number of items in the frontier.
-        astar (bool, optional): If True, nodes are printed with their h(n). Defaults to False.
-    """
-    print('--- TRACE PRINTING ---')
-    print('')
-
-    if solution is None:
-        print("No solution found. Path from the initial state to the last examined node:")
-        print('')
-        node = last
-    else:
-        node = solution
- 
-    path = path_to(node)
-    n = len(path) - 1
- 
-    for i, current in enumerate(path):
-        if i > 0:
-            print(f"Operator {i}: {current.operator}")
-        if i == 0:
-            label = "Node 0 (starting node)"
-        elif i == n and solution is not None:
-            label = f"Node {i} (final node)"
-        else:
-            label = f"Node {i}"
-        print(f"{label}: {format_node(current, astar)}")
-        
-    print('')
-    print('--- TRACE INFORMATION PARAMS ---')
-    print('')
-
-    if solution is not None:
-        print(f"Final depth: {node.depth}")
-        print(f"Final cost: {node.g}")
-
-    print(f"Total number of items in explored list: {n_explored}")
-    print(f"Total number of items in frontier: {n_frontier}")
-    print('')
-    
-    
-def extract_trace(filename, algorithm, solution, last, n_explored, n_frontier, astar=False):
-    """
-    Builds the execution trace as text instead of printing it.
-
-    Args:
-        filename (str): Name of the map file.
-        algorithm (str): Name of the algorithm.
-        solution (Node | None): Goal node, or None if no solution was found.
-        last (Node): Last examined node.
-        n_explored (int): Number of items in the explored list.
-        n_frontier (int): Number of items in the frontier.
-        astar (bool, optional): If True, nodes include their h(n). Defaults to False.
+        astar (bool): If True, nodes include their h(n).
 
     Returns:
-        str: Complete trace.
+        list[str]: Trace lines without the output-specific header or footer.
     """
-    lines = [f"--- TRACE PRINTING FOR {filename} WITH ALGORITHM {algorithm} ---", ""]
-
+    lines = []
     if solution is None:
         lines += ["No solution found. Path from the initial state to the last examined node:", ""]
         node = last
@@ -125,9 +73,48 @@ def extract_trace(filename, algorithm, solution, last, n_explored, n_frontier, a
     if solution is not None:
         lines.append(f"Final depth: {node.depth}")
         lines.append(f"Final cost: {node.g}")
-        
+
     lines.append(f"Total number of items in explored list: {n_explored}")
     lines.append(f"Total number of items in frontier: {n_frontier}")
+    return lines
+
+
+def print_trace(solution, last, n_explored, n_frontier, astar= False):
+    """
+    Prints the execution trace: the path from the initial node to the solution
+    (or to the last examined node if there is no solution) and the search statistics.
+
+    Args:
+        solution (Node | None): Goal node, or None if no solution was found.
+        last (Node): Last examined node.
+        n_explored (int): Number of items in the explored list.
+        n_frontier (int): Number of items in the frontier.
+        astar (bool, optional): If True, nodes are printed with their h(n). Defaults to False.
+    """
+    lines = ["--- TRACE PRINTING ---", ""]
+    lines.extend(_trace_content(solution, last, n_explored, n_frontier, astar))
+    lines.append("")
+    print("\n".join(lines))
+
+
+def extract_trace(filename, algorithm, solution, last, n_explored, n_frontier, astar=False):
+    """
+    Builds the execution trace as text.
+
+    Args:
+        filename (str): Name of the map file.
+        algorithm (str): Name of the algorithm.
+        solution (Node | None): Goal node, or None if no solution was found.
+        last (Node): Last examined node.
+        n_explored (int): Number of items in the explored list.
+        n_frontier (int): Number of items in the frontier.
+        astar (bool, optional): If True, nodes include their h(n). Defaults to False.
+
+    Returns:
+        str: Complete trace.
+    """
+    lines = [f"--- TRACE PRINTING FOR {filename} WITH ALGORITHM {algorithm} ---", ""]
+    lines.extend(_trace_content(solution, last, n_explored, n_frontier, astar))
     lines.append('--------------------------------------------------------------')
 
     return "\n".join(lines) + "\n"

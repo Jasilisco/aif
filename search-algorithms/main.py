@@ -1,3 +1,4 @@
+from functools import partial
 from src.environment.config import Config, INPUT_DIR
 from src.environment.problem import Problem
 from src.environment.utils import print_trace
@@ -171,21 +172,19 @@ def main():
         print("--- SOLVING PROBLEM ---")
         print('')
         print(f"Algorithm: {ALGORITHM_NAMES[args['algorithm']]}")
+
         if args['algorithm'] == "astar":
             print(f"Heuristic: {HEURISTIC_NAMES[args['heuristic']]}")
-            print('')
-            solver = Astar(problem, args['heuristic'])
-            result = solver.solve_astar()
-            
-        elif args['algorithm'] == "bfs":
-            print('')
-            solver = BFS(problem)
-            result = solver.solve_bfs()
+        print('')
 
-        elif args['algorithm'] == "dfs":
-            print('')
-            solver = DFS(problem)
-            result = solver.solve_dfs() 
+        algorithms = {
+            "astar": (partial(Astar, h=args['heuristic']), "solve_astar"),
+            "bfs": (BFS, "solve_bfs"),
+            "dfs": (DFS, "solve_dfs"),
+        }
+        solver_factory, solve_method = algorithms[args['algorithm']]
+        solver = solver_factory(problem)
+        result = getattr(solver, solve_method)()
         print_trace(*result, astar=(args['algorithm'] == "astar"))
 
 
