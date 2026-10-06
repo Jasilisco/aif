@@ -5,8 +5,8 @@ from src.environment.config import Config, INPUT_DIR
 from src.environment.problem import Problem
 from src.environment.utils import extract_trace
 from src.search.algorithms.astar import Astar
-from src.search.algorithms.sbf import Sbf
-from src.search.algorithms.sdf import Sdf
+from src.search.algorithms.bfs import BFS
+from src.search.algorithms.dfs import DFS
 from pathlib import Path
 
 OUTPUT_DIR = Path(__file__).resolve().parents[2] / "output"
@@ -154,20 +154,20 @@ class PipelineGenerator:
                         print('')
                         cfg = Config(map_name)
                         problem = Problem(cfg)
-                        sdf_solver = Sdf(problem)
-                        dfs_result = sdf_solver.solve_sdf()
+                        dfs_solver = DFS(problem)
+                        dfs_result = dfs_solver.solve_dfs()
                         metrics['dfs'].append(self.node_to_metrics(dfs_result))
-                        sbf_solver = Sbf(problem)
-                        sbf_result = sbf_solver.solve_sbf()
-                        metrics['bfs'].append(self.node_to_metrics(sbf_result))
+                        bfs_solver = BFS(problem)
+                        bfs_result = bfs_solver.solve_bfs()
+                        metrics['bfs'].append(self.node_to_metrics(bfs_result))
                         solver = Astar(problem, heuristic)
                         astar_result = solver.solve_astar()
                         metrics['astar'].append(self.node_to_metrics(astar_result))
                         dfs_trace = extract_trace(map_name, ALGORITHM_NAMES['dfs'], *dfs_result)
-                        sbf_trace = extract_trace(map_name, ALGORITHM_NAMES['bfs'], *sbf_result)
+                        bfs_trace = extract_trace(map_name, ALGORITHM_NAMES['bfs'], *bfs_result)
                         astar_trace = extract_trace(map_name, f"{ALGORITHM_NAMES['astar']} ({heuristic})", *astar_result, True)
                         
-                        for trace in (sbf_trace, dfs_trace, astar_trace):
+                        for trace in (bfs_trace, dfs_trace, astar_trace):
                             traces_file.write(trace + "\n")
 
                     metrics_file.write(self.extract_metrics(f"{size}x{size}", metrics, heuristic))

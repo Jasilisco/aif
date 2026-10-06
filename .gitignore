@@ -8,3 +8,5 @@ env/
 *.egg-info/
 dist/
 .pytest_cache/
+/search-algorithms/input/random
+/search-algorithms/output

@@ -1,11 +1,10 @@
-from collections import deque
 from src.search.node import Node
 
 
-class Sbf:
+class DFS:
     """
-    Breadth-first search.
-    It finds the solution with the fewest actions, which is not necessarily the cheapest one.
+    Depth-first search.
+    It explores as deep as possible before backtracking.
     """
 
     def __init__(self, problem):
@@ -17,17 +16,16 @@ class Sbf:
         """
         self.problem = problem
 
-
-    def solve_sbf(self):
+    def solve_dfs(self):
         """
-        Runs BFS from the initial state of the problem, with a goal test when a node is generated.
+        Runs DFS from the initial state of the problem, with a goal test when a node is generated.
 
         Returns:
-            tuple: (solution, last, n_explored, n_frontier), where 
+            tuple: (solution, last, n_explored, n_frontier), where
                 solution (Node | None) is the goal node or None if there is no solution
                 last (Node) is the last examined node
-                n_explored (int) is the number of explored states 
-                n_frontier (int) is the number of nodes left in the frontier
+                n_explored (int) is the number of explored states
+                n_frontier (int) is the number of nodes left in the frontier.
         """
         start = self.problem.initial
         root = Node(start, 0, 0, None, None, None)
@@ -35,19 +33,19 @@ class Sbf:
         if self.problem.is_goal(start):
             return root, root, 0, 0
 
-        frontier = deque([root])
+        frontier = [root]
         in_frontier = {start}
         explored = set()
         last = root
 
         while frontier:
-            node = frontier.popleft()
+            node = frontier.pop()
 
             in_frontier.remove(node.state)
             explored.add(node.state)
             last = node
 
-            for action in self.problem.actions(node.state):
+            for action in reversed(self.problem.actions(node.state)):
                 state = self.problem.result(node.state, action)
 
                 if state in explored or state in in_frontier:

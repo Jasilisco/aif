@@ -19,8 +19,8 @@ search-algorithms/
 │   └── search/                   # Contains the classes that solve the problem
 │       ├── algorithms/               # Contains the implementation of the algorithms
 │       │   ├── astar.py                  # A* Class - A* algorithm and its heuristics
-│       │   ├── sbf.py                    # Breadth First Search
-│       │   └── sdf.py                    # Depth First Search
+│       │   ├── bfs.py                    # BFS Class - Breadth First Search
+│       │   └── dfs.py                    # DFS Class - Depth First Search
 │       ├── node.py                   # Node Class - Defines the structure of the nodes of the search tree
 │       └── randomMapGenerator.py     # PipelineGenerator Class - Generates random maps and runs the comparison
 ├── main.py                   # Main file to start the execution

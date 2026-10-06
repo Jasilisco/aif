@@ -3,8 +3,8 @@ from src.environment.problem import Problem
 from src.environment.utils import print_trace
 from src.environment.constants import ALGORITHM_NAMES, HEURISTIC_NAMES, SEED
 from src.search.algorithms.astar import Astar
-from src.search.algorithms.sbf import Sbf
-from src.search.algorithms.sdf import Sdf
+from src.search.algorithms.bfs import BFS
+from src.search.algorithms.dfs import DFS
 from src.search.randomMapGenerator import PipelineGenerator
 import numpy as np
 
@@ -176,14 +176,16 @@ def main():
             print('')
             solver = Astar(problem, args['heuristic'])
             result = solver.solve_astar()
+            
         elif args['algorithm'] == "bfs":
             print('')
-            solver = Sbf(problem)
-            result = solver.solve_sbf()
+            solver = BFS(problem)
+            result = solver.solve_bfs()
+
         elif args['algorithm'] == "dfs":
             print('')
-            solver = Sdf(problem)
-            result = solver.solve_sdf() 
+            solver = DFS(problem)
+            result = solver.solve_dfs() 
         print_trace(*result, astar=(args['algorithm'] == "astar"))
 
 
