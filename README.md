@@ -57,12 +57,12 @@ Input files must be placed in the `input/` folder with `.txt` extension and must
 
 ```
 Matrix Size
-Matrix Board
+Matrix Map
 Start Coordinates & orientation
 Goal Coordinates & orientation
 ```
 
-The character separators must be spaces and the characters must be numbers. Example below for matrix size = (3,3), matrix board = [[3 2 4],[2 3 1],[1 4 2]], start coordinates = (0,0) and orientation = 0 (North), goal coordinates = (2,2) and orientation = 8 (Irrelevant):
+The character separators must be spaces and the characters must be numbers. Example below for matrix size = (3,3), matrix map = [[3 2 4],[2 3 1],[1 4 2]], start coordinates = (0,0) and orientation = 0 (North), goal coordinates = (2,2) and orientation = 8 (Irrelevant):
 
 ```
 3 3
