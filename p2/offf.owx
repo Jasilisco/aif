@@ -1,0 +1,4025 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sbmi.uth.edu/ontology/offf"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://sbmi.uth.edu/ontology/offf">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.w3.org/2004/02/skos/core</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <Literal>Chidinma Onye</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <Literal>Jing Wang, Tuan Amith, Cui Tao</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <Literal>an ontology of nutritional information from major fast food companies</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <Literal>Ontology of Fast Food Facts (OFFF)</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Added_Sugar_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#All_Natural_Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Americano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annatto_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_Bites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_Pecan_Chicken_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_Pecan_Chicken_Salad_Dressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_Pie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_Slices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_and_Cranberry_Chicken_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Applesauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian_Beef_Dish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian_Chicken_Breast_Dish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian_Chicken_Dish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian_Noodle_Dish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asian_Seafood_Dish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BBQ_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_Egg_and_Cheese_Bagel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_Egg_and_Cheese_Biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_Egg_and_Cheese_McGriddles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_Egg_and_Swiss_Croissant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_Jalapeno_Cheeseburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_Jalapeno_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_Lettuce_and_Tomato_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacon_and_Cheese_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banana_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banana_Split"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barbecue_Cheeseburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bean_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beef_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beef_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beijing_Beef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beta_Carotene_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Big_Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Big_Breakfast_Hotcakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Big_Breakfast_with_Hotcakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biscuit_and_Gravy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biscuit_with_Bacon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biscuit_with_Sausage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Pepper_Beef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Tea_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blizzard_Treat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blue_Raspberry_Slushie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Bacon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Baconator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Bagel_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Burritos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Oats_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Platter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Platter_Whataburgers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast_Sausage_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brown_Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brownie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brownie_and_Oreo_Cupfection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buster_Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buttermilk_Crispy_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calcium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calories_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calories_Fat_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canola_Oil_ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Cappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Frappe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Macchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_MooLatte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caramel_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbohydrates_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbonated_Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheese_Curds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheese_Rice_and_Bean_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheese_ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheeseburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheesecake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_BLT_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Bacon_Ranch_Artisan-Style_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_McNuggets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Noodle_Soup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Nuggets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Strip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Strip_Basket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chili_Cheese_Hot_Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chilli_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Choco_Brownie_Treatzza_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Choco_Brownie_Xtreme_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Cake_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Chip_Cookie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Chunk_Cookie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Dipped_Cone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Frosty_Cookie_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Malt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cholesterol_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chow_Mein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinnamon_Roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Citric_Acid_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Citrus_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clam_Strips"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classic_Bacon_Egg_and_Cheese_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classic_Sausage_Egg_and_Cheese_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Club_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cobb_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cocoa_Cola_Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coke_Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cold_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cone_Kids_Dairy_Queen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cookie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cookie_Dough_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cotton_Candy_Dipped_Cone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cream_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cream_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crispy_Chicken_BLT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crispy_Chicken_Nuggets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crispy_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Croissant_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crunch_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crunchy_Taco_Supreme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cucumbers_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Culture_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DQ_Treatzza_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dairy_Queen_Signature_All_Ocassion_Round_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dairy_Queen_Signature_All_Ocassion_Sheet_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dark_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decaffeinated_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dextrose_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diet_Coke_Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diet_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diet_Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dietary_Fibre_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dilly_Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dipped_Strawberry_Cake_Cupfection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Donut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Double_Patty_Cheese_Burger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Double_Patty_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Double_Quarter_Pounder_with_Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dr_Pepper_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dr_Pepper_Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Egg_McMuffin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Egg_and_Cheese_Biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enzymes_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excess_Fat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excess_Sodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excess_Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excess_Trans_Fat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fanta_Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Asian_Dish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Sides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_Food_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fat_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish_Fries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flour_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fortune_Cookie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frappe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#French_Vanilla_Cappuccino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#French_Vanilla_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fried_Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fried_Noodles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fried_Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frosted_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frosted_Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_Cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_Punch_Slushie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_Punch_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_and_Maple_Oatmeal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fudge_Stuffed_Cookie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden_Herb_Ranch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ginger_Ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Green_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled_Asiago_Ranch_Club"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled_Avocado_BLT_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled_Bacon_Jalapeno_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled_Barbecue_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled_Steak_Soft_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gum_Arabic_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HDL_Levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hamburger_with_Bacon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hard_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hash_Brown_Sticks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hash_Browns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Outcomes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heath_Treatzza_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Fructose_Corn_Syrup_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homestyle_Asiago_Ranch_Chicken_Club"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homestyle_Avocado_BLT_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homestyle_Bacon_Jalapeno_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homestyle_Barbeque_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homestyle_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honey_BBQ_Glazed_Chicken_Strip_Basket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honey_BBQ_Glazed_Chicken_Strip_Basket_Combo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honey_Mustard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Desserts_a_la_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Fudge_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Fudge_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Mustard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hot_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotcakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotcakes_Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotcakes_and_Sausages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypertension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ice_Cream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ice_Cream_Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ice_Cream_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ice_Cream_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Caramel_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Caramel_Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_French_Vanilla_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_French_Vanilla_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iced_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jalapeno_and_Cheese_Whataburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jr_Cheeseburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jr_Cheeseburger_Deluxe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Julius_Original"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kale_Crunch_Side"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kung_Pao_Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LDL_Levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lactic_Acid_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lemon_Pie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lemonade_Twisty_Misty_Slush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lettuce_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macchiato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macorni_and_Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maltodextrin_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mango_Passion_Tea_Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mango_Pineapple_Smoothie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maple_Bacon_Chicken_Croissant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mayonnaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#McGriddles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#McMuffin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milk_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mineral_Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minerals_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mini_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mix_by_Sprite_Tropic_Berry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mocha_Frappe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mocha_MooLatte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mushroom_Swiss_Burger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mustard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mustard_Seed_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nacho_Cheese_Doritos_Loco_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nacho_Cheese_Doritos_Locos_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Flavors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naturally_Occurring_Sugar_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Dairy_Dilly_Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Noodles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionalFact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutritional_Components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oatmeal_Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obesity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onion_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onions_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orange_Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orange_Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orange_Julius_Original"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orange_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oreo_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oreo_Mini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organic_Apple_Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Osteoporosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overweight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pancake_Platter_Whataburgers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pancakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paprika_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parmesan_Caesar_Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parmesan_Caesar_Chicken_Salad_Dressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peach_Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peanut_Butter_Parfait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peanut_Butter_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peanut_Butter_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peanut_Oil_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pepper_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pineapple_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pink_Lemonade_Slushie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potassium_Sorbate_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potatoe_Fries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potatoes_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pretzel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pretzel_Sticks_with_Zesty_Queso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protein_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quarter_Pound_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raised_Cholesterol_Levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ranch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raspberry_Fudge_Bliss_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raspberry_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reese_Peanut_Butter_Cup_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Root_Beer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Royal_Treats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salad_Dressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salt_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saturated_Fat_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_Biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_Biscuit_with_Egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_Egg_and_Cheese_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_Egg_and_Cheese_McGriddles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_Egg_and_Swiss_Croissant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_McGriddles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_McMuffin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sausage_McMuffin_with_Egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seasme_Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seasoned_Potatoes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seltzer_Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serving_Size_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shredded_Chicken_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sichuan_Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Side_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silicon_Dioxide_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slushie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smoothie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sodium_Citrate_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sodium_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soft_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soft_Taco_Supreme_Beef_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorbic_Acid_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Southwest_Avocado_Chicken_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Southwest_Avocado_Chicken_Salad_Dressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soy_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soybean_Oil_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spicy_Asiago_Ranch_Club"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spicy_Avocado_BLT_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spicy_Barbeque_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spicy_Chicken_Nugget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spicy_Chicken_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spicy_Potato_Soft_Taco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spicy_Southwest_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sprite_Soft_Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sriracha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Banana_Julius_Original"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Banana_Smoothie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Malt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strawberry_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar_Cookie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summer_Strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summer_Strawberry_Salad_Dressing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunflower_Lecithin_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunflower_Oil_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweet_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweet_and_Sour_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweet_and_Spicy_Sriracha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taco_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taquito_with_Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tartar_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teriyaki_Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teriyaki_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Third_Pound_Double_Patty_Cheeseburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Third_Pound_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiramisu_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tomato_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tomato_Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tooth_Decay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trans_Fat_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triple_Chocolate_Brownie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triple_Patty_Hamburger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tropical_Berry_Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tumeric_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turkey_BLT_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type_II_Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unsaturated_Fat_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unsweetened_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_Frosty_Cookie_Sundae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_MooLatte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_Shake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetarian_Burrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinegar_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waffle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waffle_Potato_Chips"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Castle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wonder_Woman_Cookie_Collision_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yeast_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disodium_dihydrogen_pyrophosphate_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Big_Breakfast_McDonald&apos;s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M&amp;M_DQ_Treatzza_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reese&apos;s_Mini_Blizzard_Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reese&apos;s_Peanut_Butter_Cups_DQ_Treatzza_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7JCiwQdti5phSegKDEy7lB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7MKXjsKgnNtwZTwvgC3Gg9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7OOuc0cePqbpoUEPUNThDJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9QhMy7TfhlLsgf8g7rGkDM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9obXG36DdJJGQUQqkpJEDL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RB9bD2GWNslYW2ureRm2cxG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBZMxru8CIIzK1ghmXj85jh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC7FV6bvlCbRrezCFqGmgfs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCb4GxylbrtJ73htaTGCtCE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RspZMbJ55lXLdG3auNdasu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Influence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAllergens"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDailyValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredients"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutritionalComponents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutritionalFact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPercentDailyValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lowers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offeredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#raises"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Amount_gram"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Amount_milligram"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DailyValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dairy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Egg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gluten"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MSG"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Peanuts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PercentDailyValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Shellfish"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Soy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Treenuts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#apple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9OZBldzkS3VRcgImjRt6Uf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RnJTCZBl0r7yVvJCUUVHRK"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Chocolate_Malt"/>
+        <Class IRI="#Chocolate_Shake"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hotcakes"/>
+        <Class IRI="#Pancakes"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Strawberry_Malt"/>
+        <Class IRI="#Strawberry_Shake"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Added_Sugar_Data"/>
+        <Class IRI="#Sugar_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#All_Natural_Lemonade"/>
+        <Class IRI="#Lemonade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Americano"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annatto_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_Bites"/>
+        <Class IRI="#Apple_Slices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_Juice"/>
+        <Class IRI="#Fruit_Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_Pecan_Chicken_Salad"/>
+        <Class IRI="#Chicken_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_Pecan_Chicken_Salad_Dressing"/>
+        <Class IRI="#Salad_Dressing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_Pie"/>
+        <Class IRI="#Pie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_Slices"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_and_Cranberry_Chicken_Salad"/>
+        <Class IRI="#Chicken_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Applesauce"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian_Beef_Dish"/>
+        <Class IRI="#Fast_Food_Asian_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian_Chicken_Breast_Dish"/>
+        <Class IRI="#Asian_Chicken_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian_Chicken_Dish"/>
+        <Class IRI="#Fast_Food_Asian_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian_Noodle_Dish"/>
+        <Class IRI="#Fast_Food_Asian_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asian_Seafood_Dish"/>
+        <Class IRI="#Fast_Food_Asian_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BBQ_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_Egg_and_Cheese_Bagel"/>
+        <Class IRI="#Breakfast_Bagel_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_Egg_and_Cheese_Biscuit"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_Egg_and_Cheese_McGriddles"/>
+        <Class IRI="#McGriddles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_Egg_and_Swiss_Croissant"/>
+        <Class IRI="#Croissant_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_Jalapeno_Cheeseburger"/>
+        <Class IRI="#Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_Jalapeno_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_Lettuce_and_Tomato_Sandwich"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacon_and_Cheese_Hamburger"/>
+        <Class IRI="#Hamburger_with_Bacon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana_Split"/>
+        <Class IRI="#Royal_Treats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barbecue_Cheeseburger"/>
+        <Class IRI="#Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bean_Burrito"/>
+        <Class IRI="#Fast_Food_Burrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beef_Burrito"/>
+        <Class IRI="#Fast_Food_Burrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beef_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beijing_Beef"/>
+        <Class IRI="#Asian_Beef_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beta_Carotene_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Big_Breakfast"/>
+        <Class IRI="#Big_Breakfast_McDonald&apos;s"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Big_Breakfast_Hotcakes"/>
+        <Class IRI="#Big_Breakfast_McDonald&apos;s"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Big_Breakfast_with_Hotcakes"/>
+        <Class IRI="#Big_Breakfast"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biscuit_and_Gravy"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biscuit_with_Bacon"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biscuit_with_Sausage"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Pepper_Beef"/>
+        <Class IRI="#Asian_Beef_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tea_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blizzard_Cake"/>
+        <Class IRI="#Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blizzard_Treat"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blue_Raspberry_Slushie"/>
+        <Class IRI="#Slushie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Bacon"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Baconator"/>
+        <Class IRI="#Breakfast_Bacon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Bagel_Sandwich"/>
+        <Class IRI="#Breakfast_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+        <Class IRI="#Breakfast_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Burritos"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Oats_Item"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Platter"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Platter_Whataburgers"/>
+        <Class IRI="#Breakfast_Platter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Sandwich"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast_Sausage_Burrito"/>
+        <Class IRI="#Breakfast_Burritos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brown_Rice"/>
+        <Class IRI="#Rice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brownie"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brownie_and_Oreo_Cupfection"/>
+        <Class IRI="#Royal_Treats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buster_Bar"/>
+        <Class IRI="#Ice_Cream_Bar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buttermilk_Crispy_Chicken_Sandwich"/>
+        <Class IRI="#Crispy_Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cake"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calcium"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calories_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calories_Fat_Data"/>
+        <Class IRI="#Calories_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canola_Oil_ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cappuccino"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Cappuccino"/>
+        <Class IRI="#Cappuccino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Frappe"/>
+        <Class IRI="#Frappe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Latte"/>
+        <Class IRI="#Latte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Macchiato"/>
+        <Class IRI="#Macchiato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Mocha"/>
+        <Class IRI="#Mocha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_MooLatte"/>
+        <Class IRI="#Cold_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_MooLatte"/>
+        <Class IRI="#Latte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caramel_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbohydrates_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbonated_Water"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese_Curds"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese_Rice_and_Bean_Burrito"/>
+        <Class IRI="#Bean_Burrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese_ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheeseburger"/>
+        <Class IRI="#Hamburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheesecake"/>
+        <Class IRI="#Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_BLT_Salad"/>
+        <Class IRI="#Chicken_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Bacon_Ranch_Artisan-Style_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Bacon_Ranch_Artisan-Style_Sandwich"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Biscuit"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Burrito"/>
+        <Class IRI="#Fast_Food_Burrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_McNuggets"/>
+        <Class IRI="#Chicken_Nuggets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Noodle_Soup"/>
+        <Class IRI="#Noodles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Noodle_Soup"/>
+        <Class IRI="#Soup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Nuggets"/>
+        <Class IRI="#Fast_Food_Chicken"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Rings"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Salad"/>
+        <Class IRI="#Fast_Food_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Sandwich"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Strip"/>
+        <Class IRI="#Fast_Food_Chicken"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Strip_Basket"/>
+        <Class IRI="#Fast_Food_Chicken"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chili_Cheese_Hot_Dog"/>
+        <Class IRI="#Hot_Dog"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chilli_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Choco_Brownie_Treatzza_Pizza"/>
+        <Class IRI="#DQ_Treatzza_Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Choco_Brownie_Xtreme_Blizzard_Cake"/>
+        <Class IRI="#Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Cake_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Chip_Cookie"/>
+        <Class IRI="#Cookie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Chunk_Cookie"/>
+        <Class IRI="#Cookie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Dipped_Cone"/>
+        <Class IRI="#Cone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Frosty_Cookie_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Malt"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Milk"/>
+        <Class IRI="#Milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholesterol_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chow_Mein"/>
+        <Class IRI="#Asian_Noodle_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chow_Mein"/>
+        <Class IRI="#Fried_Noodles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinnamon_Roll"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citric_Acid_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus_Soda"/>
+        <Class IRI="#Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clam_Strips"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classic_Bacon_Egg_and_Cheese_Sandwich"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classic_Sausage_Egg_and_Cheese_Sandwich"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Club_Soda"/>
+        <Class IRI="#Carbonated_Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cobb_Salad"/>
+        <Class IRI="#Fast_Food_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cocoa_Cola_Soft_Drink"/>
+        <Class IRI="#Dark_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coke_Soft_Drink"/>
+        <Class IRI="#Dark_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cold_Coffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cone"/>
+        <Class IRI="#Ice_Cream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cone_Kids_Dairy_Queen"/>
+        <Class IRI="#Cone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cookie"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cookie_Dough_Blizzard_Cake"/>
+        <Class IRI="#Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cotton_Candy_Dipped_Cone"/>
+        <Class IRI="#Cone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cream_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cream_Soda"/>
+        <Class IRI="#Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crispy_Chicken_BLT"/>
+        <Class IRI="#Crispy_Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crispy_Chicken_Nuggets"/>
+        <Class IRI="#Chicken_Nuggets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crispy_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Croissant_Sandwich"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crunch_Taco"/>
+        <Class IRI="#Hard_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crunchy_Taco_Supreme"/>
+        <Class IRI="#Crunch_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cucumbers_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culture_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DQ_Treatzza_Pizza"/>
+        <Class IRI="#Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy_Queen_Signature_All_Ocassion_Round_Cake"/>
+        <Class IRI="#Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy_Queen_Signature_All_Ocassion_Sheet_Cake"/>
+        <Class IRI="#Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dark_Soda"/>
+        <Class IRI="#Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decaffeinated_Coffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dextrose_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diet_Coke_Soft_Drink"/>
+        <Class IRI="#Coke_Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diet_Coke_Soft_Drink"/>
+        <Class IRI="#Diet_Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diet_Soft_Drink"/>
+        <Class IRI="#Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dietary_Fibre_Data"/>
+        <Class IRI="#Carbohydrates_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dilly_Bar"/>
+        <Class IRI="#Ice_Cream_Bar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dipped_Strawberry_Cake_Cupfection"/>
+        <Class IRI="#Royal_Treats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Donut"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Patty_Cheese_Burger"/>
+        <Class IRI="#Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Patty_Hamburger"/>
+        <Class IRI="#Hamburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Quarter_Pounder_with_Cheese"/>
+        <Class IRI="#Hamburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dr_Pepper_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dr_Pepper_Soft_Drink"/>
+        <Class IRI="#Dark_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg_McMuffin"/>
+        <Class IRI="#McMuffin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg_and_Cheese_Biscuit"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enzymes_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excess_Fat"/>
+        <Class IRI="#Diet_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excess_Sodium"/>
+        <Class IRI="#Diet_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excess_Sugar"/>
+        <Class IRI="#Diet_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excess_Trans_Fat"/>
+        <Class IRI="#Diet_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excess_Trans_Fat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#lowers"/>
+            <Class IRI="#HDL_Levels"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excess_Trans_Fat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#raises"/>
+            <Class IRI="#LDL_Levels"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fanta_Soft_Drink"/>
+        <Class IRI="#Fruit_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Asian_Dish"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Beverage"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Burrito"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Chicken"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Condiment"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Dessert"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Salad"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Sandwich"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Sides"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_Food_Taco"/>
+        <Class IRI="#Fast_Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fat_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish_Fries"/>
+        <Class IRI="#Fries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish_Sandwich"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flour_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fortune_Cookie"/>
+        <Class IRI="#Cookie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frappe"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frappe"/>
+        <Class IRI="#Cold_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#French_Vanilla_Cappuccino"/>
+        <Class IRI="#Cappuccino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#French_Vanilla_Latte"/>
+        <Class IRI="#Latte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fried_Cheese"/>
+        <Class IRI="#Fries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fried_Noodles"/>
+        <Class IRI="#Noodles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fried_Rice"/>
+        <Class IRI="#Rice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fries"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frosted_Coffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frosted_Lemonade"/>
+        <Class IRI="#Lemonade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_Cup"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_Juice"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_Punch_Slushie"/>
+        <Class IRI="#Slushie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_Punch_Soda"/>
+        <Class IRI="#Fruit_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_Soda"/>
+        <Class IRI="#Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_and_Maple_Oatmeal"/>
+        <Class IRI="#Breakfast_Oats_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fudge_Stuffed_Cookie"/>
+        <Class IRI="#Cookie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden_Herb_Ranch"/>
+        <Class IRI="#Ranch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden_Salad"/>
+        <Class IRI="#Fast_Food_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginger_Ale"/>
+        <Class IRI="#Light_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green_Tea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled_Asiago_Ranch_Club"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled_Avocado_BLT_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled_Bacon_Jalapeno_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled_Barbecue_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled_Steak_Soft_Taco"/>
+        <Class IRI="#Soft_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gum_Arabic_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HDL_Levels"/>
+        <Class IRI="#Raised_Cholesterol_Levels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hamburger"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hamburger_with_Bacon"/>
+        <Class IRI="#Hamburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hard_Taco"/>
+        <Class IRI="#Fast_Food_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hash_Brown_Sticks"/>
+        <Class IRI="#Hash_Browns"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hash_Browns"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hash_Browns"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Disease"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Fat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Trans_Fat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R7JCiwQdti5phSegKDEy7lB"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heath_Treatzza_Pizza"/>
+        <Class IRI="#DQ_Treatzza_Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Fructose_Corn_Syrup_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homestyle_Asiago_Ranch_Chicken_Club"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homestyle_Avocado_BLT_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homestyle_Bacon_Jalapeno_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homestyle_Barbeque_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homestyle_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honey_BBQ_Glazed_Chicken_Strip_Basket"/>
+        <Class IRI="#Chicken_Strip_Basket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honey_BBQ_Glazed_Chicken_Strip_Basket_Combo"/>
+        <Class IRI="#Honey_BBQ_Glazed_Chicken_Strip_Basket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honey_Mustard"/>
+        <Class IRI="#Mustard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Chocolate"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Desserts_a_la_Mode"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Dog"/>
+        <Class IRI="#Fast_Food_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Fudge_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Fudge_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Mustard"/>
+        <Class IRI="#Mustard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hot_Tea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotcakes"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotcakes_Breakfast"/>
+        <Class IRI="#Hotcakes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotcakes_and_Sausages"/>
+        <Class IRI="#Hotcakes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypertension"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypertension"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Sodium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypertension"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R7JCiwQdti5phSegKDEy7lB"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_Cream"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_Cream_Bar"/>
+        <Class IRI="#Ice_Cream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_Cream_Cake"/>
+        <Class IRI="#Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_Cream_Cake"/>
+        <Class IRI="#Ice_Cream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_Cream_Sandwich"/>
+        <Class IRI="#Ice_Cream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Coffee"/>
+        <Class IRI="#Iced_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Macchiato"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Iced_Coffee"/>
+            <Class IRI="#Macchiato"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Mocha"/>
+        <Class IRI="#Iced_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Caramel_Mocha"/>
+        <Class IRI="#Mocha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Coffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Coffee"/>
+        <Class IRI="#Cold_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_French_Vanilla_Coffee"/>
+        <Class IRI="#Iced_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_French_Vanilla_Latte"/>
+        <Class IRI="#Iced_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_French_Vanilla_Latte"/>
+        <Class IRI="#Latte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Latte"/>
+        <Class IRI="#Iced_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Latte"/>
+        <Class IRI="#Latte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Mocha"/>
+        <Class IRI="#Iced_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Mocha"/>
+        <Class IRI="#Mocha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iced_Tea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iron"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jalapeno_and_Cheese_Whataburger"/>
+        <Class IRI="#Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jr_Cheeseburger"/>
+        <Class IRI="#Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jr_Cheeseburger_Deluxe"/>
+        <Class IRI="#Jr_Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Julius_Original"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kale_Crunch_Side"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kung_Pao_Chicken"/>
+        <Class IRI="#Asian_Chicken_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LDL_Levels"/>
+        <Class IRI="#Raised_Cholesterol_Levels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lactic_Acid_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latte"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lemon_Pie"/>
+        <Class IRI="#Pie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lemonade"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lemonade_Twisty_Misty_Slush"/>
+        <Class IRI="#Slushie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lettuce_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light_Soda"/>
+        <Class IRI="#Soft_Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macchiato"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macorni_and_Cheese"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maltodextrin_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Passion_Tea_Lemonade"/>
+        <Class IRI="#Lemonade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mango_Pineapple_Smoothie"/>
+        <Class IRI="#Smoothie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maple_Bacon_Chicken_Croissant"/>
+        <Class IRI="#Croissant_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mayonnaise"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#McGriddles"/>
+        <Class IRI="#Breakfast_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#McMuffin"/>
+        <Class IRI="#Breakfast_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mineral_Water"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minerals_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mini_Blizzard_Cake"/>
+        <Class IRI="#Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mix_by_Sprite_Tropic_Berry"/>
+        <Class IRI="#Light_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_Frappe"/>
+        <Class IRI="#Frappe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_MooLatte"/>
+        <Class IRI="#Cold_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mocha_MooLatte"/>
+        <Class IRI="#Latte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mushroom_Swiss_Burger"/>
+        <Class IRI="#Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mustard"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mustard_Seed_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nacho_Cheese_Doritos_Loco_Taco"/>
+        <Class IRI="#Fast_Food_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nacho_Cheese_Doritos_Locos_Taco"/>
+        <Class IRI="#Fast_Food_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Flavors"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naturally_Occurring_Sugar_Data"/>
+        <Class IRI="#Sugar_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Dairy_Dilly_Bar"/>
+        <Class IRI="#Ice_Cream_Bar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Noodles"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oatmeal_Bar"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Sugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R7JCiwQdti5phSegKDEy7lB"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onion_Rings"/>
+        <Class IRI="#Fries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onions_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange_Chicken"/>
+        <Class IRI="#Asian_Chicken_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange_Juice"/>
+        <Class IRI="#Fruit_Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange_Julius_Original"/>
+        <Class IRI="#Julius_Original"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange_Soda"/>
+        <Class IRI="#Fruit_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oreo_Blizzard_Cake"/>
+        <Class IRI="#Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oreo_Mini"/>
+        <Class IRI="#Mini_Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organic_Apple_Juice"/>
+        <Class IRI="#Apple_Juice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osteoporosis"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osteoporosis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Sugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Fat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Sugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pancake_Platter_Whataburgers"/>
+        <Class IRI="#Breakfast_Platter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pancakes"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paprika_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parmesan_Caesar_Chicken"/>
+        <Class IRI="#Chicken_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parmesan_Caesar_Chicken_Salad_Dressing"/>
+        <Class IRI="#Salad_Dressing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peach_Lemonade"/>
+        <Class IRI="#Lemonade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peanut_Butter_Parfait"/>
+        <Class IRI="#Royal_Treats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peanut_Butter_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peanut_Butter_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peanut_Oil_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepper_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pie"/>
+        <Class IRI="#Fast_Food_Dessert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pineapple_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pink_Lemonade_Slushie"/>
+        <Class IRI="#Slushie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potassium"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potassium_Sorbate_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potatoe_Fries"/>
+        <Class IRI="#Fries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potatoes_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pretzel"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pretzel_Sticks_with_Zesty_Queso"/>
+        <Class IRI="#Pretzel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protein_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quarter_Pound_Hamburger"/>
+        <Class IRI="#Hamburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raised_Cholesterol_Levels"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ranch"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raspberry_Fudge_Bliss_Blizzard_Cake"/>
+        <Class IRI="#Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raspberry_Tea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reese_Peanut_Butter_Cup_Blizzard_Cake"/>
+        <Class IRI="#Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rice"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_Beer"/>
+        <Class IRI="#Dark_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Royal_Treats"/>
+        <Class IRI="#Ice_Cream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salad_Dressing"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salt_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saturated_Fat_Data"/>
+        <Class IRI="#Fat_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_Biscuit"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_Biscuit_with_Egg"/>
+        <Class IRI="#Breakfast_Biscuit_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_Egg_and_Cheese_Burrito"/>
+        <Class IRI="#Fast_Food_Burrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_Egg_and_Cheese_McGriddles"/>
+        <Class IRI="#McGriddles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_Egg_and_Swiss_Croissant"/>
+        <Class IRI="#Croissant_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_McGriddles"/>
+        <Class IRI="#McGriddles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_McMuffin"/>
+        <Class IRI="#McMuffin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sausage_McMuffin_with_Egg"/>
+        <Class IRI="#McMuffin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seasme_Chicken"/>
+        <Class IRI="#Asian_Chicken_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seasoned_Potatoes"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seltzer_Water"/>
+        <Class IRI="#Carbonated_Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serving_Size_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shake"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shredded_Chicken_Burrito"/>
+        <Class IRI="#Chicken_Burrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sichuan_Chicken"/>
+        <Class IRI="#Asian_Chicken_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Side_Salad"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silicon_Dioxide_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slushie"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smoothie"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sodium"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sodium_Citrate_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sodium_Data"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soft_Drink"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soft_Taco"/>
+        <Class IRI="#Fast_Food_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soft_Taco_Supreme_Beef_Taco"/>
+        <Class IRI="#Soft_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorbic_Acid_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soup"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Southwest_Avocado_Chicken_Salad"/>
+        <Class IRI="#Chicken_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Southwest_Avocado_Chicken_Salad_Dressing"/>
+        <Class IRI="#Salad_Dressing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soy_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soybean_Oil_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spicy_Asiago_Ranch_Club"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spicy_Avocado_BLT_Chicken_Sandwich"/>
+        <Class IRI="#Spicy_Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spicy_Barbeque_Chicken_Sandwich"/>
+        <Class IRI="#Spicy_Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spicy_Chicken_Nugget"/>
+        <Class IRI="#Chicken_Nuggets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spicy_Chicken_Sandwich"/>
+        <Class IRI="#Chicken_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spicy_Potato_Soft_Taco"/>
+        <Class IRI="#Soft_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spicy_Southwest_Salad"/>
+        <Class IRI="#Fast_Food_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports_Drink"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sprite_Soft_Drink"/>
+        <Class IRI="#Light_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sriracha"/>
+        <Class IRI="#Chilli_Sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Banana_Julius_Original"/>
+        <Class IRI="#Julius_Original"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Banana_Smoothie"/>
+        <Class IRI="#Smoothie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Lemonade"/>
+        <Class IRI="#Lemonade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Malt"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Milk"/>
+        <Class IRI="#Milk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Soda"/>
+        <Class IRI="#Fruit_Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strawberry_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar_Cookie"/>
+        <Class IRI="#Cookie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar_Data"/>
+        <Class IRI="#Carbohydrates_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Summer_Strawberry"/>
+        <Class IRI="#Fast_Food_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Summer_Strawberry_Salad_Dressing"/>
+        <Class IRI="#Salad_Dressing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sundae"/>
+        <Class IRI="#Ice_Cream"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunflower_Lecithin_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunflower_Oil_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweet_Tea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweet_and_Sour_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweet_and_Spicy_Sriracha"/>
+        <Class IRI="#Sriracha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taco_Salad"/>
+        <Class IRI="#Fast_Food_Salad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taquito_with_Cheese"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taquito_with_Cheese"/>
+        <Class IRI="#Fast_Food_Taco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tartar_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tea"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teriyaki_Chicken"/>
+        <Class IRI="#Asian_Chicken_Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teriyaki_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Third_Pound_Double_Patty_Cheeseburger"/>
+        <Class IRI="#Cheeseburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Third_Pound_Hamburger"/>
+        <Class IRI="#Hamburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiramisu_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tomato_Sauce"/>
+        <Class IRI="#Fast_Food_Condiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tooth_Decay"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tooth_Decay"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Sugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trans_Fat_Data"/>
+        <Class IRI="#Fat_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triple_Chocolate_Brownie"/>
+        <Class IRI="#Brownie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triple_Patty_Hamburger"/>
+        <Class IRI="#Hamburger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tropical_Berry_Lemonade"/>
+        <Class IRI="#Lemonade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumeric_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turkey_BLT_Sandwich"/>
+        <Class IRI="#Bacon_Lettuce_and_Tomato_Sandwich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type_II_Diabetes"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type_II_Diabetes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Excess_Sugar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type_II_Diabetes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R7JCiwQdti5phSegKDEy7lB"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unsaturated_Fat_Data"/>
+        <Class IRI="#Fat_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unsweetened_Tea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Frosty_Cookie_Sundae"/>
+        <Class IRI="#Sundae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_MooLatte"/>
+        <Class IRI="#Cold_Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_MooLatte"/>
+        <Class IRI="#Latte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Shake"/>
+        <Class IRI="#Shake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetarian_Burrito"/>
+        <Class IRI="#Fast_Food_Burrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinegar_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_C"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_D"/>
+        <Class IRI="#Nutritional_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waffle"/>
+        <Class IRI="#Fast_Food_Breakfast_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waffle_Potato_Chips"/>
+        <Class IRI="#Fast_Food_Sides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#Fast_Food_Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Castle"/>
+        <Class IRI="#Fast_Food_Restaurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Rice"/>
+        <Class IRI="#Rice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wonder_Woman_Cookie_Collision_Blizzard_Cake"/>
+        <Class IRI="#Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yeast_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disodium_dihydrogen_pyrophosphate_Ingredient"/>
+        <Class IRI="#Food_Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Big_Breakfast_McDonald&apos;s"/>
+        <Class IRI="#Breakfast_Platter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M&amp;M_DQ_Treatzza_Pizza"/>
+        <Class IRI="#DQ_Treatzza_Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reese&apos;s_Mini_Blizzard_Cake"/>
+        <Class IRI="#Mini_Blizzard_Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reese&apos;s_Peanut_Butter_Cups_DQ_Treatzza_Pizza"/>
+        <Class IRI="#DQ_Treatzza_Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7JCiwQdti5phSegKDEy7lB"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7MKXjsKgnNtwZTwvgC3Gg9"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7OOuc0cePqbpoUEPUNThDJ"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9QhMy7TfhlLsgf8g7rGkDM"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9obXG36DdJJGQUQqkpJEDL"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RB9bD2GWNslYW2ureRm2cxG"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBZMxru8CIIzK1ghmXj85jh"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC7FV6bvlCbRrezCFqGmgfs"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCb4GxylbrtJ73htaTGCtCE"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <Class IRI="#Health_Outcomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="#Milk"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R7MKXjsKgnNtwZTwvgC3Gg9"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R7OOuc0cePqbpoUEPUNThDJ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R9QhMy7TfhlLsgf8g7rGkDM"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/R9obXG36DdJJGQUQqkpJEDL"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/RB9bD2GWNslYW2ureRm2cxG"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/RBZMxru8CIIzK1ghmXj85jh"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/RC7FV6bvlCbRrezCFqGmgfs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causedBy"/>
+            <Class IRI="http://webprotege.stanford.edu/RspZMbJ55lXLdG3auNdasu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RspZMbJ55lXLdG3auNdasu"/>
+        <Class IRI="#Allergens"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Fish_Sandwich"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9OZBldzkS3VRcgImjRt6Uf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCb4GxylbrtJ73htaTGCtCE"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RnJTCZBl0r7yVvJCUUVHRK"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAllergens"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9OZBldzkS3VRcgImjRt6Uf"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RnJTCZBl0r7yVvJCUUVHRK"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gluten"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9OZBldzkS3VRcgImjRt6Uf"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDailyValue"/>
+        <ObjectProperty IRI="#hasValue"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPercentDailyValue"/>
+        <ObjectProperty IRI="#hasValue"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causedBy"/>
+        <ObjectProperty IRI="#causes"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasNutritionalFact"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Nutritional_Components"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causedBy"/>
+        <Class IRI="#Health_Outcomes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#Diet_Quality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAllergens"/>
+        <Class IRI="#NutritionalFact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredients"/>
+        <Class IRI="#NutritionalFact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutritionalComponents"/>
+        <Class IRI="#NutritionalFact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutritionalFact"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lowers"/>
+        <Class IRI="#Excess_Trans_Fat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offeredBy"/>
+        <Class IRI="#Fast_Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#raises"/>
+        <Class IRI="#Excess_Trans_Fat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Health_Outcomes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causedBy"/>
+        <Class IRI="#Diet_Quality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#Health_Outcomes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAllergens"/>
+        <Class IRI="#Allergens"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredients"/>
+        <Class IRI="#Food_Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutritionalComponents"/>
+        <Class IRI="#Nutritional_Components"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutritionalFact"/>
+        <Class IRI="#NutritionalFact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lowers"/>
+        <Class IRI="#HDL_Levels"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offeredBy"/>
+        <Class IRI="#Fast_Food_Restaurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#raises"/>
+        <Class IRI="#LDL_Levels"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Amount_gram"/>
+        <DataProperty IRI="#Amount"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Amount_milligram"/>
+        <DataProperty IRI="#Amount"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#DailyValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#PercentDailyValue"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Amount"/>
+        <Class IRI="#Nutritional_Components"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Amount_milligram"/>
+        <Class IRI="#Nutritional_Components"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DailyValue"/>
+        <Class IRI="#Nutritional_Components"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dairy"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Egg"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fish"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gluten"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MSG"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PercentDailyValue"/>
+        <Class IRI="#Nutritional_Components"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Shellfish"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Soy"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Treenuts"/>
+        <Class IRI="#Allergens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weight"/>
+        <Class IRI="#Serving_Size_Data"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Amount_milligram"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DailyValue"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dairy"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Egg"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fish"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gluten"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#MSG"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PercentDailyValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Shellfish"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Soy"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Treenuts"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weight"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Apple_Bites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>#Bacon_Lettuce_and_Tomato_Sandwich</IRI>
+        <Literal>BLT Sandwich</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Choco_Brownie_Treatzza_Pizza</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Choco_Brownie_Xtreme_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Cookie_Dough_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#DQ_Treatzza_Pizza</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Dairy_Queen_Signature_All_Ocassion_Round_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Dairy_Queen_Signature_All_Ocassion_Sheet_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Fruit_Juice</IRI>
+        <Literal>Fruit Drink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Heath_Treatzza_Pizza</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Hotcakes</IRI>
+        <Literal>Pancakes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Influence</IRI>
+        <Literal xml:lang="en">Nutritional component Influence health outcomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#Julius_Original</IRI>
+        <Literal>beverage that is mixture of ice, fruit, sweetener, milk, powdered egg whites and vanilla flavoring, https://en.wikipedia.org/wiki/Orange_Julius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Minerals_Data</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Mini_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NutritionalFact</IRI>
+        <Literal>Concept that encapsulates nutritional information of foods ranging from allergens, ingredients, and nutrient info.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nutritional_Components</IRI>
+        <Literal>Concept that covers value data for vitamins, calories, fats, etc contained in food items</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Oreo_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Oreo_Mini</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Raspberry_Fudge_Bliss_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Reese_Peanut_Butter_Cup_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Wonder_Woman_Cookie_Collision_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#causedBy</IRI>
+        <Literal xml:lang="en">Health outcomes are caused by diet quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDailyValue</IRI>
+        <Literal xml:lang="en">Indicates the daily value of a nutritional component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPercentDailyValue</IRI>
+        <Literal xml:lang="en">Indicates the daily percentage value of a nutritional component in a food item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasValue</IRI>
+        <Literal xml:lang="en">Nutritional component has value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lowers</IRI>
+        <Literal xml:lang="en">Excess trans fat lowers HDL Levels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#raises</IRI>
+        <Literal xml:lang="en">Excess trans fat raises LDL levels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#M&amp;M_DQ_Treatzza_Pizza</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Reese&apos;s_Mini_Blizzard_Cake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>#Reese&apos;s_Peanut_Butter_Cups_DQ_Treatzza_Pizza</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7JCiwQdti5phSegKDEy7lB</IRI>
+        <Literal>Inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7MKXjsKgnNtwZTwvgC3Gg9</IRI>
+        <Literal>Eggs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7OOuc0cePqbpoUEPUNThDJ</IRI>
+        <Literal>Wheat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9OZBldzkS3VRcgImjRt6Uf</IRI>
+        <Literal>My fish sandwich</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9QhMy7TfhlLsgf8g7rGkDM</IRI>
+        <Literal>Almonds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9obXG36DdJJGQUQqkpJEDL</IRI>
+        <Literal>Sesame</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB9bD2GWNslYW2ureRm2cxG</IRI>
+        <Literal>Fish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBZMxru8CIIzK1ghmXj85jh</IRI>
+        <Literal>Soy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC7FV6bvlCbRrezCFqGmgfs</IRI>
+        <Literal>Walnuts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCb4GxylbrtJ73htaTGCtCE</IRI>
+        <Literal>Peanuts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RfGZXxWehjCuCyWA2hkamm</IRI>
+        <Literal>Allergy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RnJTCZBl0r7yVvJCUUVHRK</IRI>
+        <Literal>Peanut Oil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RspZMbJ55lXLdG3auNdasu</IRI>
+        <Literal>Shellfish</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
