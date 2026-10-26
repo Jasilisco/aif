@@ -3583,6 +3583,11 @@
         <NamedIndividual IRI="http://webprotege.stanford.edu/R9OZBldzkS3VRcgImjRt6Uf"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Peanuts"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9OZBldzkS3VRcgImjRt6Uf"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDailyValue"/>
         <ObjectProperty IRI="#hasValue"/>
